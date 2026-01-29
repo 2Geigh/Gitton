@@ -10,7 +10,7 @@ import (
 )
 
 var (
-	filePath string = "../../Documents/Ableton/2024/12月2024/Yukon Project/Yukon.als"
+	filePath string = "../../Ableton/2024/12月2024/Yukon Project/Yukon.als"
 )
 
 func main() {
@@ -20,6 +20,9 @@ func main() {
 	}
 
 	fmt.Print(file)
+
+	os.Create("output")
+	os.WriteFile("output", []byte(file), 0644)
 }
 
 // ReadAlsFile reads an .als file and returns its decompressed XML content.
