@@ -19,6 +19,24 @@ var (
 
 func main() {
 
+	if len(os.Args) > 2 {
+		fmt.Println("too many arguments")
+		os.Exit(1)
+	}
+
+	if len(os.Args) > 1 {
+		switch os.Args[1] {
+		case "init":
+			// check that we're in an Ableton project folder.
+			// If not, throw error
+			fmt.Println("Initializing version control...")
+			os.Exit(0)
+		default:
+			fmt.Println("Welcome to the Gitton CLI! 🐈")
+			os.Exit(0)
+		}
+	}
+
 	// Create new watcher.
 	watcher, err := fsnotify.NewWatcher()
 	if err != nil {
