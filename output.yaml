@@ -1,0 +1,3315 @@
+Ableton:
+    -Creator: Ableton Live 12.2.6
+    -MajorVersion: "5"
+    -MinorVersion: "12.0_12203"
+    -Revision: 54fbddc6d0dc7047766a6a04b12063b5f6fe4b68
+    -SchemaChangeCount: "3"
+    LiveSet:
+        AccidentalSpellingPreference:
+            -Value: "3"
+        Annotation:
+            -Value: ""
+        ArrangementOverdub:
+            -Value: "false"
+        AutoColorPickerForPlayerAndGroupTracks:
+            NextColorIndex:
+                -Value: "9"
+        AutoColorPickerForReturnAndMainTracks:
+            NextColorIndex:
+                -Value: "1"
+        AutoQuantisation:
+            -Value: "0"
+        AutomationMode:
+            -Value: "false"
+        ColorSequenceIndex:
+            -Value: "761790717"
+        ContentLanes:
+            MidiEditorLaneModel:
+                - -Id: "0"
+                  IsMinimized:
+                      -Value: "false"
+                  Size:
+                      -Value: "41"
+                  Type:
+                      -Value: "2"
+                - -Id: "2"
+                  IsMinimized:
+                      -Value: "true"
+                  Size:
+                      -Value: "25"
+                  Type:
+                      -Value: "3"
+                - -Id: "1"
+                  IsMinimized:
+                      -Value: "true"
+                  Size:
+                      -Value: "25"
+                  Type:
+                      -Value: "4"
+        CrossfadeCurve:
+            -Value: "2"
+        CuePointsListWrapper:
+            -LomId: "0"
+        DetailClipKeyMidis: ""
+        ExpressionLanes:
+            MidiEditorLaneModel:
+                - -Id: "0"
+                  IsMinimized:
+                      -Value: "true"
+                  Size:
+                      -Value: "41"
+                  Type:
+                      -Value: "5"
+                - -Id: "1"
+                  IsMinimized:
+                      -Value: "false"
+                  Size:
+                      -Value: "41"
+                  Type:
+                      -Value: "0"
+                - -Id: "2"
+                  IsMinimized:
+                      -Value: "false"
+                  Size:
+                      -Value: "41"
+                  Type:
+                      -Value: "1"
+                - -Id: "3"
+                  IsMinimized:
+                      -Value: "true"
+                  Size:
+                      -Value: "41"
+                  Type:
+                      -Value: "2"
+                - -Id: "4"
+                  IsMinimized:
+                      -Value: "true"
+                  Size:
+                      -Value: "41"
+                  Type:
+                      -Value: "3"
+        GlobalQuantisation:
+            -Value: "4"
+        Grid:
+            Fixed:
+                -Value: "false"
+            FixedDenominator:
+                -Value: "16"
+            FixedNumerator:
+                -Value: "1"
+            GridIntervalPixel:
+                -Value: "20"
+            Ntoles:
+                -Value: "2"
+            SnapToGrid:
+                -Value: "true"
+        GroovePool:
+            DefaultGrooveId:
+                -Value: "4"
+            Grooves:
+                Groove:
+                    -Id: "4"
+                    Annotation:
+                        -Value: ""
+                    Clip:
+                        Value:
+                            MidiClip:
+                                -Id: "0"
+                                -Time: "0"
+                                AccidentalSpellingPreference:
+                                    -Value: "3"
+                                Annotation:
+                                    -Value: ""
+                                BankSelectCoarse:
+                                    -Value: "-1"
+                                BankSelectFine:
+                                    -Value: "-1"
+                                Color:
+                                    -Value: "7"
+                                CurrentEnd:
+                                    -Value: "4"
+                                CurrentStart:
+                                    -Value: "0"
+                                Disabled:
+                                    -Value: "false"
+                                Envelopes:
+                                    Envelopes: ""
+                                ExpressionGrid:
+                                    Fixed:
+                                        -Value: "false"
+                                    FixedDenominator:
+                                        -Value: "16"
+                                    FixedNumerator:
+                                        -Value: "1"
+                                    GridIntervalPixel:
+                                        -Value: "20"
+                                    Ntoles:
+                                        -Value: "2"
+                                    SnapToGrid:
+                                        -Value: "false"
+                                FollowAction:
+                                    FollowActionA:
+                                        -Value: "4"
+                                    FollowActionB:
+                                        -Value: "0"
+                                    FollowActionEnabled:
+                                        -Value: "false"
+                                    FollowChanceA:
+                                        -Value: "100"
+                                    FollowChanceB:
+                                        -Value: "0"
+                                    FollowTime:
+                                        -Value: "4"
+                                    IsLinked:
+                                        -Value: "true"
+                                    JumpIndexA:
+                                        -Value: "2"
+                                    JumpIndexB:
+                                        -Value: "2"
+                                    LoopIterations:
+                                        -Value: "1"
+                                FreezeEnd:
+                                    -Value: "0"
+                                FreezeStart:
+                                    -Value: "0"
+                                Grid:
+                                    Fixed:
+                                        -Value: "true"
+                                    FixedDenominator:
+                                        -Value: "16"
+                                    FixedNumerator:
+                                        -Value: "1"
+                                    GridIntervalPixel:
+                                        -Value: "20"
+                                    Ntoles:
+                                        -Value: "2"
+                                    SnapToGrid:
+                                        -Value: "true"
+                                GrooveSettings:
+                                    GrooveId:
+                                        -Value: "-1"
+                                IsInKey:
+                                    -Value: "true"
+                                IsWarped:
+                                    -Value: "true"
+                                LaunchMode:
+                                    -Value: "0"
+                                LaunchQuantisation:
+                                    -Value: "0"
+                                Legato:
+                                    -Value: "false"
+                                LomId:
+                                    -Value: "0"
+                                LomIdView:
+                                    -Value: "0"
+                                Loop:
+                                    HiddenLoopEnd:
+                                        -Value: "0.5"
+                                    HiddenLoopStart:
+                                        -Value: "0"
+                                    LoopEnd:
+                                        -Value: "4"
+                                    LoopOn:
+                                        -Value: "true"
+                                    LoopStart:
+                                        -Value: "0"
+                                    OutMarker:
+                                        -Value: "4"
+                                    StartRelative:
+                                        -Value: "0"
+                                Name:
+                                    -Value: Swing 16ths 66
+                                NoteEditorFoldInScroll:
+                                    -Value: "0"
+                                NoteEditorFoldInZoom:
+                                    -Value: "24"
+                                NoteEditorFoldOutScroll:
+                                    -Value: "-1553"
+                                NoteEditorFoldOutZoom:
+                                    -Value: "2409"
+                                NoteEditorFoldScaleScroll:
+                                    -Value: "0"
+                                NoteEditorFoldScaleZoom:
+                                    -Value: "-1"
+                                NoteSpellingPreference:
+                                    -Value: "0"
+                                Notes:
+                                    KeyTracks:
+                                        KeyTrack:
+                                            -Id: "31"
+                                            MidiKey:
+                                                -Value: "36"
+                                            Notes:
+                                                MidiNoteEvent:
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "1"
+                                                      -OffVelocity: "64"
+                                                      -Time: "0"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "2"
+                                                      -OffVelocity: "64"
+                                                      -Time: "0.333333333333333315"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "18"
+                                                      -OffVelocity: "64"
+                                                      -Time: "0.5"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "19"
+                                                      -OffVelocity: "64"
+                                                      -Time: "0.83333333333333337"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "20"
+                                                      -OffVelocity: "64"
+                                                      -Time: "1"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "21"
+                                                      -OffVelocity: "64"
+                                                      -Time: "1.3333333333333333"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "22"
+                                                      -OffVelocity: "64"
+                                                      -Time: "1.5"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "23"
+                                                      -OffVelocity: "64"
+                                                      -Time: "1.8333333333333333"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "24"
+                                                      -OffVelocity: "64"
+                                                      -Time: "2"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "25"
+                                                      -OffVelocity: "64"
+                                                      -Time: "2.3333333333333335"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "26"
+                                                      -OffVelocity: "64"
+                                                      -Time: "2.5"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "27"
+                                                      -OffVelocity: "64"
+                                                      -Time: "2.8333333333333335"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "28"
+                                                      -OffVelocity: "64"
+                                                      -Time: "3"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "29"
+                                                      -OffVelocity: "64"
+                                                      -Time: "3.3333333333333335"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "30"
+                                                      -OffVelocity: "64"
+                                                      -Time: "3.5"
+                                                      -Velocity: "127"
+                                                    - -Duration: "0.0625"
+                                                      -NoteId: "31"
+                                                      -OffVelocity: "64"
+                                                      -Time: "3.8333333333333335"
+                                                      -Velocity: "127"
+                                    NoteIdGenerator:
+                                        NextId:
+                                            -Value: "32"
+                                    NoteProbabilityGroups: ""
+                                    PerNoteEventStore:
+                                        EventLists: ""
+                                    ProbabilityGroupIdGenerator:
+                                        NextId:
+                                            -Value: "1"
+                                PreferFlatRootNote:
+                                    -Value: "false"
+                                ProgramChange:
+                                    -Value: "-1"
+                                Ram:
+                                    -Value: "false"
+                                ScaleInformation:
+                                    Name:
+                                        -Value: "0"
+                                    Root:
+                                        -Value: "0"
+                                ScrollerTimePreserver:
+                                    LeftTime:
+                                        -Value: "0"
+                                    RightTime:
+                                        -Value: "4"
+                                TakeId:
+                                    -Value: "0"
+                                TimeSelection:
+                                    AnchorTime:
+                                        -Value: "0"
+                                    OtherTime:
+                                        -Value: "3.8958333333333335"
+                                TimeSignature:
+                                    TimeSignatures:
+                                        RemoteableTimeSignature:
+                                            -Id: "0"
+                                            Denominator:
+                                                -Value: "4"
+                                            Numerator:
+                                                -Value: "4"
+                                            Time:
+                                                -Value: "0"
+                                VelocityAmount:
+                                    -Value: "0"
+                    Grid:
+                        -Value: "3"
+                    LomId:
+                        -Value: "0"
+                    Name:
+                        -Value: Swing 16ths 66
+                    QuantizationAmount:
+                        -Value: "0"
+                    RandomAmount:
+                        -Value: "0"
+                    Selection:
+                        -Value: "true"
+                    SourceContext: ""
+                    TimingAmount:
+                        -Value: "100"
+                    VelocityAmount:
+                        -Value: "0"
+            GroovesListWrapper:
+                -LomId: "0"
+            LomId:
+                -Value: "0"
+        HighlightedTrackIndex:
+            -Value: "-4"
+        InKey:
+            -Value: "true"
+        IsContentSplitterOpen:
+            -Value: "true"
+        IsExpressionSplitterOpen:
+            -Value: "true"
+        IsWaveformVerticalZoomActive:
+            -Value: "true"
+        LatencyCompensation:
+            -Value: "2"
+        LinkedTrackGroups: ""
+        Locators:
+            Locators: ""
+        LomId:
+            -Value: "0"
+        LomIdView:
+            -Value: "0"
+        MainTrack:
+            -SelectedGeneratorName: ""
+            -SelectedToolPanel: "7"
+            -SelectedTransformationName: ""
+            ArrangementClipsListWrapper:
+                -LomId: "0"
+            AutomationEnvelopes:
+                Envelopes:
+                    AutomationEnvelope:
+                        - -Id: "0"
+                          Automation:
+                              AutomationTransformViewState:
+                                  IsTransformPending:
+                                      -Value: "false"
+                                  TimeAndValueTransforms: ""
+                              Events:
+                                  EnumEvent:
+                                      -Id: "0"
+                                      -Time: "-63072000"
+                                      -Value: "201"
+                          EnvelopeTarget:
+                              PointeeId:
+                                  -Value: "10"
+                        - -Id: "1"
+                          Automation:
+                              AutomationTransformViewState:
+                                  IsTransformPending:
+                                      -Value: "false"
+                                  TimeAndValueTransforms: ""
+                              Events:
+                                  FloatEvent:
+                                      -Id: "0"
+                                      -Time: "-63072000"
+                                      -Value: "120"
+                          EnvelopeTarget:
+                              PointeeId:
+                                  -Value: "8"
+            ClipSlotsListWrapper:
+                -LomId: "0"
+            Color:
+                -Value: "3"
+            DeviceChain:
+                AudioInputRouting:
+                    LowerDisplayString:
+                        -Value: 1/2
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    MpeSettings:
+                        FirstNoteChannel:
+                            -Value: "1"
+                        LastNoteChannel:
+                            -Value: "15"
+                        ZoneType:
+                            -Value: "0"
+                    Target:
+                        -Value: AudioIn/External/S0
+                    UpperDisplayString:
+                        -Value: Ext. In
+                AudioOutputRouting:
+                    LowerDisplayString:
+                        -Value: 1/2
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    MpeSettings:
+                        FirstNoteChannel:
+                            -Value: "1"
+                        LastNoteChannel:
+                            -Value: "15"
+                        ZoneType:
+                            -Value: "0"
+                    Target:
+                        -Value: AudioOut/External/S0
+                    UpperDisplayString:
+                        -Value: Ext. Out
+                AutomationLanes:
+                    AreAdditionalAutomationLanesFolded:
+                        -Value: "false"
+                    AutomationLanes:
+                        AutomationLane:
+                            -Id: "0"
+                            IsContentSelectedInDocument:
+                                -Value: "false"
+                            LaneHeight:
+                                -Value: "85"
+                            SelectedDevice:
+                                -Value: "1"
+                            SelectedEnvelope:
+                                -Value: "4"
+                ClipEnvelopeChooserViewState:
+                    PreferModulationVisible:
+                        -Value: "false"
+                    SelectedDevice:
+                        -Value: "0"
+                    SelectedEnvelope:
+                        -Value: "0"
+                DeviceChain:
+                    Devices: ""
+                    SignalModulations: ""
+                FreezeSequencer:
+                    AudioSequencer:
+                        -Id: "0"
+                        Annotation:
+                            -Value: ""
+                        BreakoutIsExpanded:
+                            -Value: "false"
+                        ClipSlotList: ""
+                        ComplexProEnvelopeModulationTarget:
+                            -Id: "22181"
+                            LockEnvelope:
+                                -Value: "0"
+                        ComplexProFormantsModulationTarget:
+                            -Id: "22180"
+                            LockEnvelope:
+                                -Value: "0"
+                        FluxModulationTarget:
+                            -Id: "19"
+                            LockEnvelope:
+                                -Value: "0"
+                        GrainSizeModulationTarget:
+                            -Id: "18"
+                            LockEnvelope:
+                                -Value: "0"
+                        IsExpanded:
+                            -Value: "true"
+                        IsFolded:
+                            -Value: "false"
+                        KeepRecordMonitoringLatency:
+                            -Value: "true"
+                        LastPresetRef:
+                            Value: ""
+                        LastSelectedClipEnvelopeIndex:
+                            -Value: "0"
+                        LastSelectedTimeableIndex:
+                            -Value: "0"
+                        LockedScripts: ""
+                        LomId:
+                            -Value: "0"
+                        LomIdView:
+                            -Value: "0"
+                        ModulationSourceCount:
+                            -Value: "0"
+                        MonitoringEnum:
+                            -Value: "1"
+                        MpePitchBendUsesTuning:
+                            -Value: "true"
+                        "On":
+                            AutomationTarget:
+                                -Id: "15"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "true"
+                            MidiCCOnOffThresholds:
+                                Max:
+                                    -Value: "127"
+                                Min:
+                                    -Value: "64"
+                        ParametersListWrapper:
+                            -LomId: "0"
+                        PitchViewScrollPosition:
+                            -Value: "-1073741824"
+                        Pointee:
+                            -Id: "19731"
+                        Recorder:
+                            IsArmed:
+                                -Value: "false"
+                            TakeCounter:
+                                -Value: "1"
+                        Sample:
+                            ArrangerAutomation:
+                                AutomationTransformViewState:
+                                    IsTransformPending:
+                                        -Value: "false"
+                                    TimeAndValueTransforms: ""
+                                Events: ""
+                        SampleOffsetModulationScrollPosition:
+                            -Value: "-1073741824"
+                        SampleOffsetModulationTarget:
+                            -Id: "20"
+                            LockEnvelope:
+                                -Value: "0"
+                        ShouldShowPresetName:
+                            -Value: "false"
+                        SourceContext:
+                            Value: ""
+                        TransientEnvelopeModulationTarget:
+                            -Id: "22179"
+                            LockEnvelope:
+                                -Value: "0"
+                        TranspositionModulationTarget:
+                            -Id: "17"
+                            LockEnvelope:
+                                -Value: "0"
+                        UserName:
+                            -Value: ""
+                        VolumeModulationTarget:
+                            -Id: "16"
+                            LockEnvelope:
+                                -Value: "0"
+                MidiInputRouting:
+                    LowerDisplayString:
+                        -Value: ""
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    MpeSettings:
+                        FirstNoteChannel:
+                            -Value: "1"
+                        LastNoteChannel:
+                            -Value: "15"
+                        ZoneType:
+                            -Value: "0"
+                    Target:
+                        -Value: MidiIn/External.All/-1
+                    UpperDisplayString:
+                        -Value: "Ext: All Ins"
+                MidiOutputRouting:
+                    LowerDisplayString:
+                        -Value: ""
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    MpeSettings:
+                        FirstNoteChannel:
+                            -Value: "1"
+                        LastNoteChannel:
+                            -Value: "15"
+                        ZoneType:
+                            -Value: "0"
+                    Target:
+                        -Value: MidiOut/None
+                    UpperDisplayString:
+                        -Value: None
+                Mixer:
+                    Annotation:
+                        -Value: ""
+                    BreakoutIsExpanded:
+                        -Value: "false"
+                    CrossFade:
+                        AutomationTarget:
+                            -Id: "13"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "0"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1"
+                            Min:
+                                -Value: "-1"
+                        ModulationTarget:
+                            -Id: "14"
+                            LockEnvelope:
+                                -Value: "0"
+                    CrossFadeState:
+                        AutomationTarget:
+                            -Id: "7"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "1"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "2"
+                            Min:
+                                -Value: "0"
+                    GlobalGrooveAmount:
+                        AutomationTarget:
+                            -Id: "11"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "0"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "131.25"
+                            Min:
+                                -Value: "0"
+                        ModulationTarget:
+                            -Id: "12"
+                            LockEnvelope:
+                                -Value: "0"
+                    IsExpanded:
+                        -Value: "true"
+                    IsFolded:
+                        -Value: "false"
+                    LastPresetRef:
+                        Value: ""
+                    LastSelectedClipEnvelopeIndex:
+                        -Value: "0"
+                    LastSelectedTimeableIndex:
+                        -Value: "4"
+                    LockedScripts: ""
+                    LomId:
+                        -Value: "0"
+                    LomIdView:
+                        -Value: "0"
+                    ModulationSourceCount:
+                        -Value: "0"
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    "On":
+                        AutomationTarget:
+                            -Id: "1"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "true"
+                        MidiCCOnOffThresholds:
+                            Max:
+                                -Value: "127"
+                            Min:
+                                -Value: "64"
+                    Pan:
+                        AutomationTarget:
+                            -Id: "3"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "0"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1"
+                            Min:
+                                -Value: "-1"
+                        ModulationTarget:
+                            -Id: "4"
+                            LockEnvelope:
+                                -Value: "0"
+                    PanMode:
+                        -Value: "0"
+                    ParametersListWrapper:
+                        -LomId: "0"
+                    Pointee:
+                        -Id: "19730"
+                    Sends: ""
+                    SendsListWrapper:
+                        -LomId: "0"
+                    ShouldShowPresetName:
+                        -Value: "false"
+                    SoloSink:
+                        -Value: "false"
+                    SourceContext:
+                        Value: ""
+                    Speaker:
+                        AutomationTarget:
+                            -Id: "2"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "true"
+                        MidiCCOnOffThresholds:
+                            Max:
+                                -Value: "127"
+                            Min:
+                                -Value: "64"
+                    SplitStereoPanL:
+                        AutomationTarget:
+                            -Id: "16175"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "-1"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1"
+                            Min:
+                                -Value: "-1"
+                        ModulationTarget:
+                            -Id: "16176"
+                            LockEnvelope:
+                                -Value: "0"
+                    SplitStereoPanR:
+                        AutomationTarget:
+                            -Id: "16177"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "1"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1"
+                            Min:
+                                -Value: "-1"
+                        ModulationTarget:
+                            -Id: "16178"
+                            LockEnvelope:
+                                -Value: "0"
+                    Tempo:
+                        AutomationTarget:
+                            -Id: "8"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "120"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "200"
+                            Min:
+                                -Value: "60"
+                        ModulationTarget:
+                            -Id: "9"
+                            LockEnvelope:
+                                -Value: "0"
+                    TempoAutomationViewBottom:
+                        -Value: "60"
+                    TempoAutomationViewTop:
+                        -Value: "200"
+                    TimeSignature:
+                        AutomationTarget:
+                            -Id: "10"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "201"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "494"
+                            Min:
+                                -Value: "0"
+                    UserName:
+                        -Value: ""
+                    ViewStateSessionTrackWidth:
+                        -Value: "103"
+                    Volume:
+                        AutomationTarget:
+                            -Id: "5"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "1"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1.99526238"
+                            Min:
+                                -Value: "0.0003162277571"
+                        ModulationTarget:
+                            -Id: "6"
+                            LockEnvelope:
+                                -Value: "0"
+            DevicesListWrapper:
+                -LomId: "0"
+            IsContentSelectedInDocument:
+                -Value: "true"
+            LinkedTrackGroupId:
+                -Value: "-1"
+            LomId:
+                -Value: "0"
+            LomIdView:
+                -Value: "0"
+            Name:
+                Annotation:
+                    -Value: ""
+                EffectiveName:
+                    -Value: Main
+                MemorizedFirstClipName:
+                    -Value: ""
+                UserName:
+                    -Value: ""
+            PreferredContentViewMode:
+                -Value: "0"
+            TakeLanes:
+                AreTakeLanesFolded:
+                    -Value: "true"
+                TakeLanes: ""
+            TakeLanesListWrapper:
+                -LomId: "0"
+            TrackDelay:
+                IsValueSampleBased:
+                    -Value: "false"
+                Value:
+                    -Value: "0"
+            TrackGroupId:
+                -Value: "-1"
+            TrackUnfolded:
+                -Value: "false"
+            ViewData:
+                -Value: "{}"
+        MidiFoldIn:
+            -Value: "false"
+        MidiFoldMode:
+            -Value: "-99"
+        MidiPrelisten:
+            -Value: "false"
+        MultiClipFocusMode:
+            -Value: "false"
+        MultiClipLoopBarHeight:
+            -Value: "0"
+        NextPointeeId:
+            -Value: "22182"
+        NoteAlgorithms:
+            ArpeggiateAlgorithm:
+                -Id: "0"
+                Distance:
+                    -Value: "12"
+                Gate:
+                    -Value: "1"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "15"
+                          -Name: Rate
+                        - -Id: "16"
+                          -Name: Steps
+                        - -Id: "17"
+                          -Name: Distance
+                        - -Id: "18"
+                          -Name: Gate
+                        - -Id: "19"
+                          -Name: Style
+                Rate:
+                    -Value: "10"
+                Steps:
+                    -Value: "2"
+                Style:
+                    -Value: "0"
+            ConnectAlgorithm:
+                -Id: "2"
+                Density:
+                    -Value: "1"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "12"
+                          -Name: Tie
+                        - -Id: "13"
+                          -Name: Density
+                        - -Id: "14"
+                          -Name: Spread
+                        - -Id: "15"
+                          -Name: Rate
+                Rate:
+                    -Value: "0"
+                Spread:
+                    -Value: "0"
+                Tie:
+                    -Value: "0"
+            OrnamentAlgorithm:
+                -Id: "3"
+                FlamEnabled:
+                    -Value: "true"
+                FlamPosition:
+                    -Value: "-0.200000003"
+                FlamVelocity:
+                    -Value: "0.5"
+                GraceNotesAmount:
+                    -Value: "3"
+                GraceNotesChance:
+                    -Value: "1"
+                GraceNotesEnabled:
+                    -Value: "false"
+                GraceNotesPitch:
+                    -Value: "1"
+                GraceNotesPosition:
+                    -Value: "-0.200000003"
+                GraceNotesVelocity:
+                    -Value: "0.5"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "27"
+                          -Name: FlamEnabled
+                        - -Id: "28"
+                          -Name: FlamPosition
+                        - -Id: "29"
+                          -Name: FlamVelocity
+                        - -Id: "30"
+                          -Name: GraceNotesEnabled
+                        - -Id: "31"
+                          -Name: GraceNotesChance
+                        - -Id: "32"
+                          -Name: GraceNotesVelocity
+                        - -Id: "33"
+                          -Name: GraceNotesPosition
+                        - -Id: "34"
+                          -Name: GraceNotesAmount
+                        - -Id: "35"
+                          -Name: GraceNotesPitch
+            QuantizeAlgorithm:
+                -Id: "5"
+                Amount:
+                    -Value: "100"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "15"
+                          -Name: TripletReference
+                        - -Id: "16"
+                          -Name: QuantizeReference
+                        - -Id: "17"
+                          -Name: Amount
+                        - -Id: "18"
+                          -Name: QuantizeNoteStarts
+                        - -Id: "19"
+                          -Name: QuantizeNoteEnds
+                QuantizeNoteEnds:
+                    -Value: "false"
+                QuantizeNoteStarts:
+                    -Value: "true"
+                Reference:
+                    -Value: "0"
+                TripletReference:
+                    -Value: "false"
+            RecombineAlgorithm:
+                -Id: "4"
+                Mirror:
+                    -Value: "false"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "15"
+                          -Name: Dimension
+                        - -Id: "16"
+                          -Name: Shuffle
+                        - -Id: "17"
+                          -Name: Mirror
+                        - -Id: "18"
+                          -Name: RotateAmount
+                        - -Id: "19"
+                          -Name: RotateOnGrid
+                PermutedDimension:
+                    -Value: "0"
+                RotateAmount:
+                    -Value: "0"
+                RotateOnGrid:
+                    -Value: "false"
+                Shuffle:
+                    -Value: "false"
+            RhythmAlgorithm:
+                -Id: "8"
+                Accent:
+                    -Value: "127"
+                Density:
+                    -Value: "4"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "42"
+                          -Name: Density
+                        - -Id: "43"
+                          -Name: Repetitions
+                        - -Id: "44"
+                          -Name: Pattern
+                        - -Id: "45"
+                          -Name: Steps
+                        - -Id: "46"
+                          -Name: Pitch
+                        - -Id: "47"
+                          -Name: Velocity
+                        - -Id: "48"
+                          -Name: Accent
+                        - -Id: "49"
+                          -Name: Period
+                        - -Id: "50"
+                          -Name: Offset
+                        - -Id: "51"
+                          -Name: Shift
+                        - -Id: "52"
+                          -Name: StepDuration
+                        - -Id: "53"
+                          -Name: Split
+                        - -Id: "54"
+                          -Name: VelocityOffsetIncrement
+                        - -Id: "55"
+                          -Name: VelocityOffsetDecrement
+                Offset:
+                    -Value: "0"
+                Pattern:
+                    -Value: "14"
+                PatternLength:
+                    -Value: "8"
+                Period:
+                    -Value: "4"
+                Pitch:
+                    -Value: "36"
+                Repetitions:
+                    -Value: "1"
+                Shift:
+                    -Value: "0"
+                Split:
+                    -Value: "0"
+                StepDuration:
+                    -Value: "7"
+                Velocity:
+                    -Value: "100"
+            SeedAlgorithm:
+                -Id: "11"
+                MaxDuration:
+                    -Value: "-3"
+                MaxPitch:
+                    -Value: "84"
+                MaxVelocity:
+                    -Value: "100"
+                MinDuration:
+                    -Value: "-6"
+                MinPitch:
+                    -Value: "60"
+                MinVelocity:
+                    -Value: "30"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "24"
+                          -Name: Density
+                        - -Id: "25"
+                          -Name: MinPitch
+                        - -Id: "26"
+                          -Name: MaxPitch
+                        - -Id: "27"
+                          -Name: MinDuration
+                        - -Id: "28"
+                          -Name: MaxDuration
+                        - -Id: "29"
+                          -Name: MinVelocity
+                        - -Id: "30"
+                          -Name: MaxVelocity
+                        - -Id: "31"
+                          -Name: VerticalLimit
+                NotesDensity:
+                    -Value: "0.5"
+                VerticalLimit:
+                    -Value: "4"
+            ShapeAlgorithm:
+                -Id: "10"
+                Density:
+                    -Value: "1"
+                MaxPitch:
+                    -Value: "84"
+                MinPitch:
+                    -Value: "60"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "21"
+                          -Name: ShapePresets
+                        - -Id: "22"
+                          -Name: Rate
+                        - -Id: "23"
+                          -Name: Tie
+                        - -Id: "24"
+                          -Name: Density
+                        - -Id: "25"
+                          -Name: MinPitch
+                        - -Id: "26"
+                          -Name: MaxPitch
+                        - -Id: "27"
+                          -Name: PitchVariation
+                PitchVariation:
+                    -Value: "0"
+                Rate:
+                    -Value: "0"
+                ShapeLevels:
+                    RemoteableFloat:
+                        - -Id: "0"
+                          -Value: "0"
+                        - -Id: "1"
+                          -Value: "0.05000000075"
+                        - -Id: "2"
+                          -Value: "0.1000000015"
+                        - -Id: "3"
+                          -Value: "0.150000006"
+                        - -Id: "4"
+                          -Value: "0.200000003"
+                        - -Id: "5"
+                          -Value: "0.25"
+                        - -Id: "6"
+                          -Value: "0.3000000119"
+                        - -Id: "7"
+                          -Value: "0.349999994"
+                        - -Id: "8"
+                          -Value: "0.400000006"
+                        - -Id: "9"
+                          -Value: "0.4499999881"
+                        - -Id: "10"
+                          -Value: "0.5"
+                        - -Id: "11"
+                          -Value: "0.5500000119"
+                        - -Id: "12"
+                          -Value: "0.6000000238"
+                        - -Id: "13"
+                          -Value: "0.6499999762"
+                        - -Id: "14"
+                          -Value: "0.6999999881"
+                        - -Id: "15"
+                          -Value: "0.75"
+                        - -Id: "16"
+                          -Value: "0.8000000119"
+                        - -Id: "17"
+                          -Value: "0.8500000238"
+                        - -Id: "18"
+                          -Value: "0.8999999762"
+                        - -Id: "19"
+                          -Value: "0.9499999881"
+                        - -Id: "20"
+                          -Value: "1"
+                ShapePresets:
+                    -Value: "2"
+                Tie:
+                    -Value: "0"
+            SpanAlgorithm:
+                -Id: "1"
+                ChordThreshold:
+                    -Value: "10"
+                LengthOffset:
+                    -Value: "0"
+                LengthVariation:
+                    -Value: "0"
+                Mode:
+                    -Value: "1"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "9"
+                          -Name: Mode
+                        - -Id: "10"
+                          -Name: LengthVariation
+                        - -Id: "11"
+                          -Name: LengthOffset
+            StacksAlgorithm:
+                -Id: "9"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "36"
+                          -Name: AppendChord
+                        - -Id: "37"
+                          -Name: DeleteSelectedChord
+                        - -Id: "38"
+                          -Name: RootPitch1
+                        - -Id: "39"
+                          -Name: Inversion1
+                        - -Id: "40"
+                          -Name: Rule1
+                        - -Id: "41"
+                          -Name: Duration1
+                        - -Id: "42"
+                          -Name: Offset1
+                Sequence:
+                    Chord:
+                        -Id: "8"
+                        Duration:
+                            -Value: "1"
+                        Inversion:
+                            -Value: "0"
+                        Octave:
+                            -Value: "3"
+                        Offset:
+                            -Value: "0"
+                        RootDegree:
+                            -Value: "0"
+                        RootPitch:
+                            -Value: "60"
+                        RuleNumber:
+                            -Value: "0"
+            StrumAlgorithm:
+                -Id: "6"
+                ChordThreshold:
+                    -Value: "0"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "12"
+                          -Name: Threshold
+                        - -Id: "13"
+                          -Name: Low
+                        - -Id: "14"
+                          -Name: High
+                        - -Id: "15"
+                          -Name: Tension
+                StrumHigh:
+                    -Value: "0"
+                StrumLow:
+                    -Value: "0"
+                TensionAmount:
+                    -Value: "0"
+            TimeWarpAlgorithm:
+                -Id: "7"
+                Breakpoints:
+                    Breakpoint:
+                        - -Id: "0"
+                          Control1X:
+                              -Value: "0.5"
+                          Control1Y:
+                              -Value: "0.5"
+                          Control2X:
+                              -Value: "0.5"
+                          Control2Y:
+                              -Value: "0.5"
+                          IsActive:
+                              -Value: "true"
+                          Time:
+                              -Value: "0"
+                          Value:
+                              -Value: "0.5"
+                        - -Id: "1"
+                          Control1X:
+                              -Value: "0.5"
+                          Control1Y:
+                              -Value: "0.5"
+                          Control2X:
+                              -Value: "0.5"
+                          Control2Y:
+                              -Value: "0.5"
+                          IsActive:
+                              -Value: "false"
+                          Time:
+                              -Value: "0.5"
+                          Value:
+                              -Value: "0.5"
+                        - -Id: "2"
+                          Control1X:
+                              -Value: "0.5"
+                          Control1Y:
+                              -Value: "0.5"
+                          Control2X:
+                              -Value: "0.5"
+                          Control2Y:
+                              -Value: "0.5"
+                          IsActive:
+                              -Value: "true"
+                          Time:
+                              -Value: "1"
+                          Value:
+                              -Value: "0.5"
+                NamedKeyMidiRemoteables:
+                    NamedRemoteableKeyMidi:
+                        - -Id: "63"
+                          -Name: StretchNoteEnd
+                        - -Id: "64"
+                          -Name: PreserveTimeRange
+                        - -Id: "65"
+                          -Name: Quantize
+                        - -Id: "66"
+                          -Name: Value1
+                        - -Id: "67"
+                          -Name: Time1
+                        - -Id: "68"
+                          -Name: IsActive1
+                        - -Id: "69"
+                          -Name: Value2
+                        - -Id: "70"
+                          -Name: Time2
+                        - -Id: "71"
+                          -Name: IsActive2
+                        - -Id: "72"
+                          -Name: Value3
+                        - -Id: "73"
+                          -Name: Time3
+                        - -Id: "74"
+                          -Name: IsActive3
+                PreserveTimeRange:
+                    -Value: "true"
+                Quantize:
+                    -Value: "false"
+                StretchNoteEnd:
+                    -Value: "true"
+        NoteSpellingPreference:
+            -Value: "0"
+        OverwriteProtectionNumber:
+            -Value: "3074"
+        PreHearTrack:
+            -SelectedGeneratorName: ""
+            -SelectedToolPanel: "7"
+            -SelectedTransformationName: ""
+            ArrangementClipsListWrapper:
+                -LomId: "0"
+            AutomationEnvelopes:
+                Envelopes: ""
+            ClipSlotsListWrapper:
+                -LomId: "0"
+            Color:
+                -Value: "-1"
+            DeviceChain:
+                AudioInputRouting:
+                    LowerDisplayString:
+                        -Value: 1/2
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    MpeSettings:
+                        FirstNoteChannel:
+                            -Value: "1"
+                        LastNoteChannel:
+                            -Value: "15"
+                        ZoneType:
+                            -Value: "0"
+                    Target:
+                        -Value: AudioIn/External/S0
+                    UpperDisplayString:
+                        -Value: Ext. In
+                AudioOutputRouting:
+                    LowerDisplayString:
+                        -Value: 1/2
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    MpeSettings:
+                        FirstNoteChannel:
+                            -Value: "1"
+                        LastNoteChannel:
+                            -Value: "15"
+                        ZoneType:
+                            -Value: "0"
+                    Target:
+                        -Value: AudioOut/External/S0
+                    UpperDisplayString:
+                        -Value: Ext. Out
+                AutomationLanes:
+                    AreAdditionalAutomationLanesFolded:
+                        -Value: "false"
+                    AutomationLanes:
+                        AutomationLane:
+                            -Id: "0"
+                            IsContentSelectedInDocument:
+                                -Value: "false"
+                            LaneHeight:
+                                -Value: "85"
+                            SelectedDevice:
+                                -Value: "0"
+                            SelectedEnvelope:
+                                -Value: "0"
+                ClipEnvelopeChooserViewState:
+                    PreferModulationVisible:
+                        -Value: "false"
+                    SelectedDevice:
+                        -Value: "0"
+                    SelectedEnvelope:
+                        -Value: "0"
+                DeviceChain:
+                    Devices: ""
+                    SignalModulations: ""
+                MidiInputRouting:
+                    LowerDisplayString:
+                        -Value: ""
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    MpeSettings:
+                        FirstNoteChannel:
+                            -Value: "1"
+                        LastNoteChannel:
+                            -Value: "15"
+                        ZoneType:
+                            -Value: "0"
+                    Target:
+                        -Value: MidiIn/External.All/-1
+                    UpperDisplayString:
+                        -Value: "Ext: All Ins"
+                MidiOutputRouting:
+                    LowerDisplayString:
+                        -Value: ""
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    MpeSettings:
+                        FirstNoteChannel:
+                            -Value: "1"
+                        LastNoteChannel:
+                            -Value: "15"
+                        ZoneType:
+                            -Value: "0"
+                    Target:
+                        -Value: MidiOut/None
+                    UpperDisplayString:
+                        -Value: None
+                Mixer:
+                    Annotation:
+                        -Value: ""
+                    BreakoutIsExpanded:
+                        -Value: "false"
+                    CrossFadeState:
+                        AutomationTarget:
+                            -Id: "27"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "1"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "2"
+                            Min:
+                                -Value: "0"
+                    IsExpanded:
+                        -Value: "true"
+                    IsFolded:
+                        -Value: "false"
+                    LastPresetRef:
+                        Value: ""
+                    LastSelectedClipEnvelopeIndex:
+                        -Value: "0"
+                    LastSelectedTimeableIndex:
+                        -Value: "0"
+                    LockedScripts: ""
+                    LomId:
+                        -Value: "0"
+                    LomIdView:
+                        -Value: "0"
+                    ModulationSourceCount:
+                        -Value: "0"
+                    MpePitchBendUsesTuning:
+                        -Value: "true"
+                    "On":
+                        AutomationTarget:
+                            -Id: "21"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "true"
+                        MidiCCOnOffThresholds:
+                            Max:
+                                -Value: "127"
+                            Min:
+                                -Value: "64"
+                    Pan:
+                        AutomationTarget:
+                            -Id: "23"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "0"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1"
+                            Min:
+                                -Value: "-1"
+                        ModulationTarget:
+                            -Id: "24"
+                            LockEnvelope:
+                                -Value: "0"
+                    PanMode:
+                        -Value: "0"
+                    ParametersListWrapper:
+                        -LomId: "0"
+                    Pointee:
+                        -Id: "19732"
+                    Sends: ""
+                    SendsListWrapper:
+                        -LomId: "0"
+                    ShouldShowPresetName:
+                        -Value: "false"
+                    SoloSink:
+                        -Value: "false"
+                    SourceContext:
+                        Value: ""
+                    Speaker:
+                        AutomationTarget:
+                            -Id: "22"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "true"
+                        MidiCCOnOffThresholds:
+                            Max:
+                                -Value: "127"
+                            Min:
+                                -Value: "64"
+                    SplitStereoPanL:
+                        AutomationTarget:
+                            -Id: "16179"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "-1"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1"
+                            Min:
+                                -Value: "-1"
+                        ModulationTarget:
+                            -Id: "16180"
+                            LockEnvelope:
+                                -Value: "0"
+                    SplitStereoPanR:
+                        AutomationTarget:
+                            -Id: "16181"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "1"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1"
+                            Min:
+                                -Value: "-1"
+                        ModulationTarget:
+                            -Id: "16182"
+                            LockEnvelope:
+                                -Value: "0"
+                    UserName:
+                        -Value: ""
+                    ViewStateSessionTrackWidth:
+                        -Value: "74"
+                    Volume:
+                        AutomationTarget:
+                            -Id: "25"
+                            LockEnvelope:
+                                -Value: "0"
+                        LomId:
+                            -Value: "0"
+                        Manual:
+                            -Value: "0.5012149811"
+                        MidiControllerRange:
+                            Max:
+                                -Value: "1.99526238"
+                            Min:
+                                -Value: "0.0003162277571"
+                        ModulationTarget:
+                            -Id: "26"
+                            LockEnvelope:
+                                -Value: "0"
+            DevicesListWrapper:
+                -LomId: "0"
+            IsContentSelectedInDocument:
+                -Value: "false"
+            LinkedTrackGroupId:
+                -Value: "-1"
+            LomId:
+                -Value: "0"
+            LomIdView:
+                -Value: "0"
+            Name:
+                Annotation:
+                    -Value: ""
+                EffectiveName:
+                    -Value: Master
+                MemorizedFirstClipName:
+                    -Value: ""
+                UserName:
+                    -Value: ""
+            PreferredContentViewMode:
+                -Value: "0"
+            TakeLanes:
+                AreTakeLanesFolded:
+                    -Value: "true"
+                TakeLanes: ""
+            TakeLanesListWrapper:
+                -LomId: "0"
+            TrackDelay:
+                IsValueSampleBased:
+                    -Value: "false"
+                Value:
+                    -Value: "0"
+            TrackGroupId:
+                -Value: "-1"
+            TrackUnfolded:
+                -Value: "false"
+            ViewData:
+                -Value: "{}"
+        PreferFlatRootNote:
+            -Value: "false"
+        ResetNonautomatedMidiControllersOnClipStarts:
+            -Value: "true"
+        ReturnTracksListWrapper:
+            -LomId: "0"
+        ScaleInformation:
+            Name:
+                -Value: "0"
+            Root:
+                -Value: "0"
+        Scenes:
+            Scene:
+                - -Id: "0"
+                  Annotation:
+                      -Value: ""
+                  ClipSlotsListWrapper:
+                      -LomId: "0"
+                  Color:
+                      -Value: "-1"
+                  FollowAction:
+                      FollowActionA:
+                          -Value: "4"
+                      FollowActionB:
+                          -Value: "0"
+                      FollowActionEnabled:
+                          -Value: "false"
+                      FollowChanceA:
+                          -Value: "100"
+                      FollowChanceB:
+                          -Value: "0"
+                      FollowTime:
+                          -Value: "4"
+                      IsLinked:
+                          -Value: "true"
+                      JumpIndexA:
+                          -Value: "0"
+                      JumpIndexB:
+                          -Value: "0"
+                      LoopIterations:
+                          -Value: "1"
+                  IsTempoEnabled:
+                      -Value: "false"
+                  IsTimeSignatureEnabled:
+                      -Value: "false"
+                  LomId:
+                      -Value: "0"
+                  Name:
+                      -Value: ""
+                  Tempo:
+                      -Value: "120"
+                  TimeSignatureId:
+                      -Value: "201"
+                - -Id: "1"
+                  Annotation:
+                      -Value: ""
+                  ClipSlotsListWrapper:
+                      -LomId: "0"
+                  Color:
+                      -Value: "-1"
+                  FollowAction:
+                      FollowActionA:
+                          -Value: "4"
+                      FollowActionB:
+                          -Value: "0"
+                      FollowActionEnabled:
+                          -Value: "false"
+                      FollowChanceA:
+                          -Value: "100"
+                      FollowChanceB:
+                          -Value: "0"
+                      FollowTime:
+                          -Value: "4"
+                      IsLinked:
+                          -Value: "true"
+                      JumpIndexA:
+                          -Value: "0"
+                      JumpIndexB:
+                          -Value: "0"
+                      LoopIterations:
+                          -Value: "1"
+                  IsTempoEnabled:
+                      -Value: "false"
+                  IsTimeSignatureEnabled:
+                      -Value: "false"
+                  LomId:
+                      -Value: "0"
+                  Name:
+                      -Value: ""
+                  Tempo:
+                      -Value: "120"
+                  TimeSignatureId:
+                      -Value: "201"
+                - -Id: "2"
+                  Annotation:
+                      -Value: ""
+                  ClipSlotsListWrapper:
+                      -LomId: "0"
+                  Color:
+                      -Value: "-1"
+                  FollowAction:
+                      FollowActionA:
+                          -Value: "4"
+                      FollowActionB:
+                          -Value: "0"
+                      FollowActionEnabled:
+                          -Value: "false"
+                      FollowChanceA:
+                          -Value: "100"
+                      FollowChanceB:
+                          -Value: "0"
+                      FollowTime:
+                          -Value: "4"
+                      IsLinked:
+                          -Value: "true"
+                      JumpIndexA:
+                          -Value: "0"
+                      JumpIndexB:
+                          -Value: "0"
+                      LoopIterations:
+                          -Value: "1"
+                  IsTempoEnabled:
+                      -Value: "false"
+                  IsTimeSignatureEnabled:
+                      -Value: "false"
+                  LomId:
+                      -Value: "0"
+                  Name:
+                      -Value: ""
+                  Tempo:
+                      -Value: "120"
+                  TimeSignatureId:
+                      -Value: "201"
+                - -Id: "3"
+                  Annotation:
+                      -Value: ""
+                  ClipSlotsListWrapper:
+                      -LomId: "0"
+                  Color:
+                      -Value: "-1"
+                  FollowAction:
+                      FollowActionA:
+                          -Value: "4"
+                      FollowActionB:
+                          -Value: "0"
+                      FollowActionEnabled:
+                          -Value: "false"
+                      FollowChanceA:
+                          -Value: "100"
+                      FollowChanceB:
+                          -Value: "0"
+                      FollowTime:
+                          -Value: "4"
+                      IsLinked:
+                          -Value: "true"
+                      JumpIndexA:
+                          -Value: "0"
+                      JumpIndexB:
+                          -Value: "0"
+                      LoopIterations:
+                          -Value: "1"
+                  IsTempoEnabled:
+                      -Value: "false"
+                  IsTimeSignatureEnabled:
+                      -Value: "false"
+                  LomId:
+                      -Value: "0"
+                  Name:
+                      -Value: ""
+                  Tempo:
+                      -Value: "120"
+                  TimeSignatureId:
+                      -Value: "201"
+                - -Id: "4"
+                  Annotation:
+                      -Value: ""
+                  ClipSlotsListWrapper:
+                      -LomId: "0"
+                  Color:
+                      -Value: "-1"
+                  FollowAction:
+                      FollowActionA:
+                          -Value: "4"
+                      FollowActionB:
+                          -Value: "0"
+                      FollowActionEnabled:
+                          -Value: "false"
+                      FollowChanceA:
+                          -Value: "100"
+                      FollowChanceB:
+                          -Value: "0"
+                      FollowTime:
+                          -Value: "4"
+                      IsLinked:
+                          -Value: "true"
+                      JumpIndexA:
+                          -Value: "0"
+                      JumpIndexB:
+                          -Value: "0"
+                      LoopIterations:
+                          -Value: "1"
+                  IsTempoEnabled:
+                      -Value: "false"
+                  IsTimeSignatureEnabled:
+                      -Value: "false"
+                  LomId:
+                      -Value: "0"
+                  Name:
+                      -Value: ""
+                  Tempo:
+                      -Value: "120"
+                  TimeSignatureId:
+                      -Value: "201"
+                - -Id: "5"
+                  Annotation:
+                      -Value: ""
+                  ClipSlotsListWrapper:
+                      -LomId: "0"
+                  Color:
+                      -Value: "-1"
+                  FollowAction:
+                      FollowActionA:
+                          -Value: "4"
+                      FollowActionB:
+                          -Value: "0"
+                      FollowActionEnabled:
+                          -Value: "false"
+                      FollowChanceA:
+                          -Value: "100"
+                      FollowChanceB:
+                          -Value: "0"
+                      FollowTime:
+                          -Value: "4"
+                      IsLinked:
+                          -Value: "true"
+                      JumpIndexA:
+                          -Value: "0"
+                      JumpIndexB:
+                          -Value: "0"
+                      LoopIterations:
+                          -Value: "1"
+                  IsTempoEnabled:
+                      -Value: "false"
+                  IsTimeSignatureEnabled:
+                      -Value: "false"
+                  LomId:
+                      -Value: "0"
+                  Name:
+                      -Value: ""
+                  Tempo:
+                      -Value: "120"
+                  TimeSignatureId:
+                      -Value: "201"
+                - -Id: "6"
+                  Annotation:
+                      -Value: ""
+                  ClipSlotsListWrapper:
+                      -LomId: "0"
+                  Color:
+                      -Value: "-1"
+                  FollowAction:
+                      FollowActionA:
+                          -Value: "4"
+                      FollowActionB:
+                          -Value: "0"
+                      FollowActionEnabled:
+                          -Value: "false"
+                      FollowChanceA:
+                          -Value: "100"
+                      FollowChanceB:
+                          -Value: "0"
+                      FollowTime:
+                          -Value: "4"
+                      IsLinked:
+                          -Value: "true"
+                      JumpIndexA:
+                          -Value: "0"
+                      JumpIndexB:
+                          -Value: "0"
+                      LoopIterations:
+                          -Value: "1"
+                  IsTempoEnabled:
+                      -Value: "false"
+                  IsTimeSignatureEnabled:
+                      -Value: "false"
+                  LomId:
+                      -Value: "0"
+                  Name:
+                      -Value: ""
+                  Tempo:
+                      -Value: "120"
+                  TimeSignatureId:
+                      -Value: "201"
+                - -Id: "7"
+                  Annotation:
+                      -Value: ""
+                  ClipSlotsListWrapper:
+                      -LomId: "0"
+                  Color:
+                      -Value: "-1"
+                  FollowAction:
+                      FollowActionA:
+                          -Value: "4"
+                      FollowActionB:
+                          -Value: "0"
+                      FollowActionEnabled:
+                          -Value: "false"
+                      FollowChanceA:
+                          -Value: "100"
+                      FollowChanceB:
+                          -Value: "0"
+                      FollowTime:
+                          -Value: "4"
+                      IsLinked:
+                          -Value: "true"
+                      JumpIndexA:
+                          -Value: "0"
+                      JumpIndexB:
+                          -Value: "0"
+                      LoopIterations:
+                          -Value: "1"
+                  IsTempoEnabled:
+                      -Value: "false"
+                  IsTimeSignatureEnabled:
+                      -Value: "false"
+                  LomId:
+                      -Value: "0"
+                  Name:
+                      -Value: ""
+                  Tempo:
+                      -Value: "120"
+                  TimeSignatureId:
+                      -Value: "201"
+        ScenesListWrapper:
+            -LomId: "0"
+        SelectedBreakpointValue:
+            -Value: "0"
+        SelectedDocumentViewInMainWindow:
+            -Value: "1"
+        SendsPre: ""
+        SequencerNavigator:
+            BeatTimeHelper:
+                CurrentZoom:
+                    -Value: "0.254945054945054927"
+            ClientSize:
+                -X: "2420"
+                -Y: "906"
+            ScrollerPos:
+                -X: "0"
+                -Y: "0"
+        SessionScrollPos:
+            -X: "0"
+            -Y: "0"
+        ShouldSceneTempoAndTimeSignatureBeVisible:
+            -Value: "false"
+        ShowVideoWindow:
+            -Value: "true"
+        SignalModulations: ""
+        SmpteFormat:
+            -Value: "0"
+        SnapAutomationToGrid:
+            -Value: "true"
+        SoloInPlace:
+            -Value: "true"
+        SoloOrPflSavedValue:
+            -Value: "true"
+        TimeSelection:
+            AnchorTime:
+                -Value: "0"
+            OtherTime:
+                -Value: "0"
+        TrackHeaderWidth:
+            -Value: "93"
+        Tracks:
+            MidiTrack:
+                -Id: "12"
+                -SelectedGeneratorName: ""
+                -SelectedToolPanel: "7"
+                -SelectedTransformationName: ""
+                ArrangementClipsListWrapper:
+                    -LomId: "0"
+                AutomationEnvelopes:
+                    Envelopes: ""
+                ClipSlotsListWrapper:
+                    -LomId: "0"
+                Color:
+                    -Value: "2"
+                ControllerLayoutCustomization:
+                    AllowedKeys:
+                        -Value: "0"
+                    FillerKeysMapTo:
+                        -Value: "0"
+                    KeyNoteTarget:
+                        -Value: "60"
+                    OctaveEvery:
+                        -Value: "12"
+                    OctaveSource:
+                        -Value: "2"
+                    PitchClassSource:
+                        -Value: "0"
+                    StepSize:
+                        -Value: "1"
+                ControllerLayoutRemoteable:
+                    -Value: "0"
+                DeviceChain:
+                    AudioInputRouting:
+                        LowerDisplayString:
+                            -Value: 1/2
+                        MpePitchBendUsesTuning:
+                            -Value: "true"
+                        MpeSettings:
+                            FirstNoteChannel:
+                                -Value: "1"
+                            LastNoteChannel:
+                                -Value: "15"
+                            ZoneType:
+                                -Value: "0"
+                        Target:
+                            -Value: AudioIn/External/S0
+                        UpperDisplayString:
+                            -Value: Ext. In
+                    AudioOutputRouting:
+                        LowerDisplayString:
+                            -Value: ""
+                        MpePitchBendUsesTuning:
+                            -Value: "true"
+                        MpeSettings:
+                            FirstNoteChannel:
+                                -Value: "1"
+                            LastNoteChannel:
+                                -Value: "15"
+                            ZoneType:
+                                -Value: "0"
+                        Target:
+                            -Value: AudioOut/Main
+                        UpperDisplayString:
+                            -Value: Master
+                    AutomationLanes:
+                        AreAdditionalAutomationLanesFolded:
+                            -Value: "false"
+                        AutomationLanes:
+                            AutomationLane:
+                                -Id: "0"
+                                IsContentSelectedInDocument:
+                                    -Value: "false"
+                                LaneHeight:
+                                    -Value: "68"
+                                SelectedDevice:
+                                    -Value: "1"
+                                SelectedEnvelope:
+                                    -Value: "0"
+                    ClipEnvelopeChooserViewState:
+                        PreferModulationVisible:
+                            -Value: "false"
+                        SelectedDevice:
+                            -Value: "1"
+                        SelectedEnvelope:
+                            -Value: "0"
+                    DeviceChain:
+                        Devices: ""
+                        SignalModulations: ""
+                    FreezeSequencer:
+                        Annotation:
+                            -Value: ""
+                        BreakoutIsExpanded:
+                            -Value: "false"
+                        ClipSlotList:
+                            ClipSlot:
+                                - -Id: "0"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "1"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "2"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "3"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "4"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "5"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "6"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "7"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                        ComplexProEnvelopeModulationTarget:
+                            -Id: "22155"
+                            LockEnvelope:
+                                -Value: "0"
+                        ComplexProFormantsModulationTarget:
+                            -Id: "22154"
+                            LockEnvelope:
+                                -Value: "0"
+                        FluxModulationTarget:
+                            -Id: "15977"
+                            LockEnvelope:
+                                -Value: "0"
+                        GrainSizeModulationTarget:
+                            -Id: "15976"
+                            LockEnvelope:
+                                -Value: "0"
+                        IsExpanded:
+                            -Value: "true"
+                        IsFolded:
+                            -Value: "false"
+                        KeepRecordMonitoringLatency:
+                            -Value: "true"
+                        LastPresetRef:
+                            Value: ""
+                        LastSelectedClipEnvelopeIndex:
+                            -Value: "0"
+                        LastSelectedTimeableIndex:
+                            -Value: "0"
+                        LockedScripts: ""
+                        LomId:
+                            -Value: "0"
+                        LomIdView:
+                            -Value: "0"
+                        ModulationSourceCount:
+                            -Value: "0"
+                        MonitoringEnum:
+                            -Value: "1"
+                        MpePitchBendUsesTuning:
+                            -Value: "true"
+                        "On":
+                            AutomationTarget:
+                                -Id: "15973"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "true"
+                            MidiCCOnOffThresholds:
+                                Max:
+                                    -Value: "127"
+                                Min:
+                                    -Value: "64"
+                        ParametersListWrapper:
+                            -LomId: "0"
+                        PitchViewScrollPosition:
+                            -Value: "-1073741824"
+                        Pointee:
+                            -Id: "19714"
+                        Recorder:
+                            IsArmed:
+                                -Value: "false"
+                            TakeCounter:
+                                -Value: "1"
+                        Sample:
+                            ArrangerAutomation:
+                                AutomationTransformViewState:
+                                    IsTransformPending:
+                                        -Value: "false"
+                                    TimeAndValueTransforms: ""
+                                Events: ""
+                        SampleOffsetModulationScrollPosition:
+                            -Value: "-1073741824"
+                        SampleOffsetModulationTarget:
+                            -Id: "15978"
+                            LockEnvelope:
+                                -Value: "0"
+                        ShouldShowPresetName:
+                            -Value: "false"
+                        SourceContext:
+                            Value: ""
+                        TransientEnvelopeModulationTarget:
+                            -Id: "22153"
+                            LockEnvelope:
+                                -Value: "0"
+                        TranspositionModulationTarget:
+                            -Id: "15975"
+                            LockEnvelope:
+                                -Value: "0"
+                        UserName:
+                            -Value: ""
+                        VolumeModulationTarget:
+                            -Id: "15974"
+                            LockEnvelope:
+                                -Value: "0"
+                    MainSequencer:
+                        Annotation:
+                            -Value: ""
+                        BreakoutIsExpanded:
+                            -Value: "false"
+                        ClipSlotList:
+                            ClipSlot:
+                                - -Id: "0"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "1"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "2"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "3"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "4"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "5"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "6"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                                - -Id: "7"
+                                  ClipSlot:
+                                      Value: ""
+                                  HasStop:
+                                      -Value: "true"
+                                  LomId:
+                                      -Value: "0"
+                                  NeedRefreeze:
+                                      -Value: "true"
+                        ClipTimeable:
+                            ArrangerAutomation:
+                                AutomationTransformViewState:
+                                    IsTransformPending:
+                                        -Value: "false"
+                                    TimeAndValueTransforms: ""
+                                Events: ""
+                        IsExpanded:
+                            -Value: "true"
+                        IsFolded:
+                            -Value: "false"
+                        KeepRecordMonitoringLatency:
+                            -Value: "true"
+                        LastPresetRef:
+                            Value: ""
+                        LastSelectedClipEnvelopeIndex:
+                            -Value: "0"
+                        LastSelectedTimeableIndex:
+                            -Value: "0"
+                        LockedScripts: ""
+                        LomId:
+                            -Value: "0"
+                        LomIdView:
+                            -Value: "0"
+                        MidiControllers:
+                            ControllerTargets.0:
+                                -Id: "15842"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.1:
+                                -Id: "15843"
+                                LockEnvelope:
+                                    -Value: "1"
+                            ControllerTargets.2:
+                                -Id: "15844"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.3:
+                                -Id: "15845"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.4:
+                                -Id: "15846"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.5:
+                                -Id: "15847"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.6:
+                                -Id: "15848"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.7:
+                                -Id: "15849"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.8:
+                                -Id: "15850"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.9:
+                                -Id: "15851"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.10:
+                                -Id: "15852"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.11:
+                                -Id: "15853"
+                                LockEnvelope:
+                                    -Value: "1"
+                            ControllerTargets.12:
+                                -Id: "15854"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.13:
+                                -Id: "15855"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.14:
+                                -Id: "15856"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.15:
+                                -Id: "15857"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.16:
+                                -Id: "15858"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.17:
+                                -Id: "15859"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.18:
+                                -Id: "15860"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.19:
+                                -Id: "15861"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.20:
+                                -Id: "15862"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.21:
+                                -Id: "15863"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.22:
+                                -Id: "15864"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.23:
+                                -Id: "15865"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.24:
+                                -Id: "15866"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.25:
+                                -Id: "15867"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.26:
+                                -Id: "15868"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.27:
+                                -Id: "15869"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.28:
+                                -Id: "15870"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.29:
+                                -Id: "15871"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.30:
+                                -Id: "15872"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.31:
+                                -Id: "15873"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.32:
+                                -Id: "15874"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.33:
+                                -Id: "15875"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.34:
+                                -Id: "15876"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.35:
+                                -Id: "15877"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.36:
+                                -Id: "15878"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.37:
+                                -Id: "15879"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.38:
+                                -Id: "15880"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.39:
+                                -Id: "15881"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.40:
+                                -Id: "15882"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.41:
+                                -Id: "15883"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.42:
+                                -Id: "15884"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.43:
+                                -Id: "15885"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.44:
+                                -Id: "15886"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.45:
+                                -Id: "15887"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.46:
+                                -Id: "15888"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.47:
+                                -Id: "15889"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.48:
+                                -Id: "15890"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.49:
+                                -Id: "15891"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.50:
+                                -Id: "15892"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.51:
+                                -Id: "15893"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.52:
+                                -Id: "15894"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.53:
+                                -Id: "15895"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.54:
+                                -Id: "15896"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.55:
+                                -Id: "15897"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.56:
+                                -Id: "15898"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.57:
+                                -Id: "15899"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.58:
+                                -Id: "15900"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.59:
+                                -Id: "15901"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.60:
+                                -Id: "15902"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.61:
+                                -Id: "15903"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.62:
+                                -Id: "15904"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.63:
+                                -Id: "15905"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.64:
+                                -Id: "15906"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.65:
+                                -Id: "15907"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.66:
+                                -Id: "15908"
+                                LockEnvelope:
+                                    -Value: "1"
+                            ControllerTargets.67:
+                                -Id: "15909"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.68:
+                                -Id: "15910"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.69:
+                                -Id: "15911"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.70:
+                                -Id: "15912"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.71:
+                                -Id: "15913"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.72:
+                                -Id: "15914"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.73:
+                                -Id: "15915"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.74:
+                                -Id: "15916"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.75:
+                                -Id: "15917"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.76:
+                                -Id: "15918"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.77:
+                                -Id: "15919"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.78:
+                                -Id: "15920"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.79:
+                                -Id: "15921"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.80:
+                                -Id: "15922"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.81:
+                                -Id: "15923"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.82:
+                                -Id: "15924"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.83:
+                                -Id: "15925"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.84:
+                                -Id: "15926"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.85:
+                                -Id: "15927"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.86:
+                                -Id: "15928"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.87:
+                                -Id: "15929"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.88:
+                                -Id: "15930"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.89:
+                                -Id: "15931"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.90:
+                                -Id: "15932"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.91:
+                                -Id: "15933"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.92:
+                                -Id: "15934"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.93:
+                                -Id: "15935"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.94:
+                                -Id: "15936"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.95:
+                                -Id: "15937"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.96:
+                                -Id: "15938"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.97:
+                                -Id: "15939"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.98:
+                                -Id: "15940"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.99:
+                                -Id: "15941"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.100:
+                                -Id: "15942"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.101:
+                                -Id: "15943"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.102:
+                                -Id: "15944"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.103:
+                                -Id: "15945"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.104:
+                                -Id: "15946"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.105:
+                                -Id: "15947"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.106:
+                                -Id: "15948"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.107:
+                                -Id: "15949"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.108:
+                                -Id: "15950"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.109:
+                                -Id: "15951"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.110:
+                                -Id: "15952"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.111:
+                                -Id: "15953"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.112:
+                                -Id: "15954"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.113:
+                                -Id: "15955"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.114:
+                                -Id: "15956"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.115:
+                                -Id: "15957"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.116:
+                                -Id: "15958"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.117:
+                                -Id: "15959"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.118:
+                                -Id: "15960"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.119:
+                                -Id: "15961"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.120:
+                                -Id: "15962"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.121:
+                                -Id: "15963"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.122:
+                                -Id: "15964"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.123:
+                                -Id: "15965"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.124:
+                                -Id: "15966"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.125:
+                                -Id: "15967"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.126:
+                                -Id: "15968"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.127:
+                                -Id: "15969"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.128:
+                                -Id: "15970"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.129:
+                                -Id: "15971"
+                                LockEnvelope:
+                                    -Value: "0"
+                            ControllerTargets.130:
+                                -Id: "15972"
+                                LockEnvelope:
+                                    -Value: "0"
+                        ModulationSourceCount:
+                            -Value: "0"
+                        MonitoringEnum:
+                            -Value: "1"
+                        MpePitchBendUsesTuning:
+                            -Value: "true"
+                        "On":
+                            AutomationTarget:
+                                -Id: "15841"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "true"
+                            MidiCCOnOffThresholds:
+                                Max:
+                                    -Value: "127"
+                                Min:
+                                    -Value: "64"
+                        ParametersListWrapper:
+                            -LomId: "0"
+                        Pointee:
+                            -Id: "19713"
+                        Recorder:
+                            IsArmed:
+                                -Value: "false"
+                            TakeCounter:
+                                -Value: "0"
+                        ShouldShowPresetName:
+                            -Value: "false"
+                        SourceContext:
+                            Value: ""
+                        UserName:
+                            -Value: ""
+                    MidiInputRouting:
+                        LowerDisplayString:
+                            -Value: ""
+                        MpePitchBendUsesTuning:
+                            -Value: "true"
+                        MpeSettings:
+                            FirstNoteChannel:
+                                -Value: "1"
+                            LastNoteChannel:
+                                -Value: "15"
+                            ZoneType:
+                                -Value: "0"
+                        Target:
+                            -Value: MidiIn/External.All/-1
+                        UpperDisplayString:
+                            -Value: "Ext: All Ins"
+                    MidiOutputRouting:
+                        LowerDisplayString:
+                            -Value: ""
+                        MpePitchBendUsesTuning:
+                            -Value: "true"
+                        MpeSettings:
+                            FirstNoteChannel:
+                                -Value: "1"
+                            LastNoteChannel:
+                                -Value: "15"
+                            ZoneType:
+                                -Value: "0"
+                        Target:
+                            -Value: MidiOut/None
+                        UpperDisplayString:
+                            -Value: None
+                    Mixer:
+                        Annotation:
+                            -Value: ""
+                        BreakoutIsExpanded:
+                            -Value: "false"
+                        CrossFadeState:
+                            AutomationTarget:
+                                -Id: "15840"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "1"
+                            MidiControllerRange:
+                                Max:
+                                    -Value: "2"
+                                Min:
+                                    -Value: "0"
+                        IsExpanded:
+                            -Value: "true"
+                        IsFolded:
+                            -Value: "false"
+                        LastPresetRef:
+                            Value: ""
+                        LastSelectedClipEnvelopeIndex:
+                            -Value: "0"
+                        LastSelectedTimeableIndex:
+                            -Value: "0"
+                        LockedScripts: ""
+                        LomId:
+                            -Value: "0"
+                        LomIdView:
+                            -Value: "0"
+                        ModulationSourceCount:
+                            -Value: "0"
+                        MpePitchBendUsesTuning:
+                            -Value: "true"
+                        "On":
+                            AutomationTarget:
+                                -Id: "15830"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "true"
+                            MidiCCOnOffThresholds:
+                                Max:
+                                    -Value: "127"
+                                Min:
+                                    -Value: "64"
+                        Pan:
+                            AutomationTarget:
+                                -Id: "15836"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "0"
+                            MidiControllerRange:
+                                Max:
+                                    -Value: "1"
+                                Min:
+                                    -Value: "-1"
+                            ModulationTarget:
+                                -Id: "15837"
+                                LockEnvelope:
+                                    -Value: "0"
+                        PanMode:
+                            -Value: "0"
+                        ParametersListWrapper:
+                            -LomId: "0"
+                        Pointee:
+                            -Id: "19712"
+                        Sends: ""
+                        SendsListWrapper:
+                            -LomId: "0"
+                        ShouldShowPresetName:
+                            -Value: "false"
+                        SoloSink:
+                            -Value: "false"
+                        SourceContext:
+                            Value: ""
+                        Speaker:
+                            AutomationTarget:
+                                -Id: "15835"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "true"
+                            MidiCCOnOffThresholds:
+                                Max:
+                                    -Value: "127"
+                                Min:
+                                    -Value: "64"
+                        SplitStereoPanL:
+                            AutomationTarget:
+                                -Id: "16151"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "-1"
+                            MidiControllerRange:
+                                Max:
+                                    -Value: "1"
+                                Min:
+                                    -Value: "-1"
+                            ModulationTarget:
+                                -Id: "16152"
+                                LockEnvelope:
+                                    -Value: "0"
+                        SplitStereoPanR:
+                            AutomationTarget:
+                                -Id: "16153"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "1"
+                            MidiControllerRange:
+                                Max:
+                                    -Value: "1"
+                                Min:
+                                    -Value: "-1"
+                            ModulationTarget:
+                                -Id: "16154"
+                                LockEnvelope:
+                                    -Value: "0"
+                        UserName:
+                            -Value: ""
+                        ViewStateSessionTrackWidth:
+                            -Value: "93"
+                        Volume:
+                            AutomationTarget:
+                                -Id: "15838"
+                                LockEnvelope:
+                                    -Value: "0"
+                            LomId:
+                                -Value: "0"
+                            Manual:
+                                -Value: "1"
+                            MidiControllerRange:
+                                Max:
+                                    -Value: "1.99526238"
+                                Min:
+                                    -Value: "0.0003162277571"
+                            ModulationTarget:
+                                -Id: "15839"
+                                LockEnvelope:
+                                    -Value: "0"
+                DevicesListWrapper:
+                    -LomId: "0"
+                Freeze:
+                    -Value: "false"
+                IsContentSelectedInDocument:
+                    -Value: "false"
+                IsTuned:
+                    -Value: "true"
+                LinkedTrackGroupId:
+                    -Value: "-1"
+                LomId:
+                    -Value: "0"
+                LomIdView:
+                    -Value: "0"
+                Name:
+                    Annotation:
+                        -Value: ""
+                    EffectiveName:
+                        -Value: 1-MIDI
+                    MemorizedFirstClipName:
+                        -Value: ""
+                    UserName:
+                        -Value: ""
+                NeedArrangerRefreeze:
+                    -Value: "true"
+                PitchbendRange:
+                    -Value: "96"
+                PostProcessFreezeClips:
+                    -Value: "0"
+                PreferredContentViewMode:
+                    -Value: "0"
+                ReWireDeviceMidiTargetId:
+                    -Value: "0"
+                SavedPlayingOffset:
+                    -Value: "0"
+                SavedPlayingSlot:
+                    -Value: "-1"
+                TakeLanes:
+                    AreTakeLanesFolded:
+                        -Value: "true"
+                    TakeLanes: ""
+                TakeLanesListWrapper:
+                    -LomId: "0"
+                TrackDelay:
+                    IsValueSampleBased:
+                        -Value: "false"
+                    Value:
+                        -Value: "0"
+                TrackGroupId:
+                    -Value: "-1"
+                TrackUnfolded:
+                    -Value: "true"
+                ViewData:
+                    -Value: '{"push-selected-note-mode": "play", "push-instrument-selected-notes": [36], "push-note-repeat-rate": 0.5, "push-note-repeat-enabled": false}'
+        TracksListWrapper:
+            -LomId: "0"
+        Transport:
+            CurrentTime:
+                -Value: "0"
+            DrawMode:
+                -Value: "false"
+            LoopIsSongStart:
+                -Value: "false"
+            LoopLength:
+                -Value: "16"
+            LoopOn:
+                -Value: "false"
+            LoopStart:
+                -Value: "8"
+            MetronomeTickDuration:
+                -Value: "0"
+            PhaseNudgeTempo:
+                -Value: "10"
+            PunchIn:
+                -Value: "false"
+            PunchOut:
+                -Value: "false"
+        TuningSystems: ""
+        UseWarperLegacyHiQMode:
+            -Value: "false"
+        VideoWindowRect:
+            -Bottom: "-2147483648"
+            -Left: "-2147483648"
+            -Right: "-2147483648"
+            -Top: "-2147483648"
+        ViewData:
+            -Value: "{}"
+        ViewStateArrangerMixerVolumeSectionHeight:
+            -Value: "120"
+        ViewStateFxSlotCount:
+            -Value: "4"
+        ViewStateMainWindowClipDetailOpen:
+            -Value: "false"
+        ViewStateMainWindowDeviceDetailOpen:
+            -Value: "true"
+        ViewStateMainWindowHiddenOtherDocViewTypeClipDetailOpen:
+            -Value: "false"
+        ViewStateMainWindowHiddenOtherDocViewTypeDeviceDetailOpen:
+            -Value: "true"
+        ViewStateSecondWindowClipDetailOpen:
+            -Value: "true"
+        ViewStateSecondWindowDeviceDetailOpen:
+            -Value: "false"
+        ViewStateSessionMixerVolumeSectionHeight:
+            -Value: "120"
+        ViewStates:
+            ArrangerIO:
+                -Value: "1"
+            ArrangerMixerCrossFade:
+                -Value: "0"
+            ArrangerMixerIO:
+                -Value: "1"
+            ArrangerMixerReturns:
+                -Value: "1"
+            ArrangerMixerSends:
+                -Value: "1"
+            ArrangerMixerTrackOptions:
+                -Value: "0"
+            ArrangerMixerTrackPerformanceImpactMeter:
+                -Value: "0"
+            ArrangerMixerVolume:
+                -Value: "1"
+            ArrangerReturns:
+                -Value: "1"
+            ArrangerShowOverView:
+                -Value: "1"
+            ArrangerTrackOptions:
+                -Value: "0"
+            ArrangerVolume:
+                -Value: "1"
+            MixerInArrangement:
+                -Value: "0"
+            MixerInSession:
+                -Value: "1"
+            SessionCrossFade:
+                -Value: "0"
+            SessionIO:
+                -Value: "1"
+            SessionReturns:
+                -Value: "1"
+            SessionSends:
+                -Value: "1"
+            SessionShowOverView:
+                -Value: "0"
+            SessionTrackOptions:
+                -Value: "0"
+            SessionTrackPerformanceImpactMeter:
+                -Value: "0"
+            SessionVolume:
+                -Value: "1"
+        VisibleTracksListWrapper:
+            -LomId: "0"
+        WaveformVerticalZoomFactor:
+            -Value: "1"
