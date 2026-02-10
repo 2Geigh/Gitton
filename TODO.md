@@ -1,4 +1,4 @@
-# TO-DO
+# Gitton TO-DO
 
 ## Meta (design, ideas, etc.)
 
@@ -10,3 +10,7 @@
 
 [x] Parse .als files into XML
 [x] Parse .als files into YAML
+
+## GUI
+
+[ ] Add Tailwind
