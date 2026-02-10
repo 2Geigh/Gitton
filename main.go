@@ -5,9 +5,11 @@ import (
 	"compress/gzip"
 	"fmt"
 	"io"
+	"log"
 	"os"
 
 	"github.com/clbanning/mxj/v2"
+	"github.com/fsnotify/fsnotify"
 	"gopkg.in/yaml.v3"
 )
 
@@ -16,15 +18,48 @@ var (
 )
 
 func main() {
-	xml, err := ReadAlsFile(filePath)
+
+	// Create new watcher.
+	watcher, err := fsnotify.NewWatcher()
 	if err != nil {
-		fmt.Print(fmt.Errorf("couldn't read .als file: %w", err))
+		log.Fatal(err)
+	}
+	defer watcher.Close()
+
+	// Start listening for events.
+	go func() {
+		for {
+			select {
+			case event, ok := <-watcher.Events:
+				if !ok {
+					return
+				}
+				if !isAlsFile(event.Name) {
+					continue
+				}
+				_, err := ReadAlsFile(event.Name)
+				if err != nil {
+					log.Println(fmt.Errorf("couldn't read .als file: %w", err))
+				}
+				log.Println("File change detected:", event.Name)
+
+			case err, ok := <-watcher.Errors:
+				if !ok {
+					log.Println("error:", err)
+					return
+				}
+			}
+		}
+	}()
+
+	// Add a path.
+	err = watcher.Add("./")
+	if err != nil {
+		log.Fatal(err)
 	}
 
-	yaml, err := convertXmlToYaml(xml)
-
-	os.WriteFile("output.yaml", []byte(yaml), 0644)
-	os.WriteFile("output.xml", []byte(xml), 0644)
+	// Block main goroutine forever.
+	<-make(chan struct{})
 }
 
 func ReadAlsFile(filePath string) (string, error) {

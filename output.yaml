@@ -27,25 +27,25 @@ Ableton:
             MidiEditorLaneModel:
                 - -Id: "0"
                   IsMinimized:
-                      -Value: "false"
+                    -Value: "false"
                   Size:
-                      -Value: "41"
+                    -Value: "41"
                   Type:
-                      -Value: "2"
+                    -Value: "2"
                 - -Id: "2"
                   IsMinimized:
-                      -Value: "true"
+                    -Value: "true"
                   Size:
-                      -Value: "25"
+                    -Value: "25"
                   Type:
-                      -Value: "3"
+                    -Value: "3"
                 - -Id: "1"
                   IsMinimized:
-                      -Value: "true"
+                    -Value: "true"
                   Size:
-                      -Value: "25"
+                    -Value: "25"
                   Type:
-                      -Value: "4"
+                    -Value: "4"
         CrossfadeCurve:
             -Value: "2"
         CuePointsListWrapper:
@@ -55,39 +55,39 @@ Ableton:
             MidiEditorLaneModel:
                 - -Id: "0"
                   IsMinimized:
-                      -Value: "true"
+                    -Value: "true"
                   Size:
-                      -Value: "41"
+                    -Value: "41"
                   Type:
-                      -Value: "5"
+                    -Value: "5"
                 - -Id: "1"
                   IsMinimized:
-                      -Value: "false"
+                    -Value: "false"
                   Size:
-                      -Value: "41"
+                    -Value: "41"
                   Type:
-                      -Value: "0"
+                    -Value: "0"
                 - -Id: "2"
                   IsMinimized:
-                      -Value: "false"
+                    -Value: "false"
                   Size:
-                      -Value: "41"
+                    -Value: "41"
                   Type:
-                      -Value: "1"
+                    -Value: "1"
                 - -Id: "3"
                   IsMinimized:
-                      -Value: "true"
+                    -Value: "true"
                   Size:
-                      -Value: "41"
+                    -Value: "41"
                   Type:
-                      -Value: "2"
+                    -Value: "2"
                 - -Id: "4"
                   IsMinimized:
-                      -Value: "true"
+                    -Value: "true"
                   Size:
-                      -Value: "41"
+                    -Value: "41"
                   Type:
-                      -Value: "3"
+                    -Value: "3"
         GlobalQuantisation:
             -Value: "4"
         Grid:
@@ -416,32 +416,32 @@ Ableton:
                     AutomationEnvelope:
                         - -Id: "0"
                           Automation:
-                              AutomationTransformViewState:
-                                  IsTransformPending:
-                                      -Value: "false"
-                                  TimeAndValueTransforms: ""
-                              Events:
-                                  EnumEvent:
-                                      -Id: "0"
-                                      -Time: "-63072000"
-                                      -Value: "201"
+                            AutomationTransformViewState:
+                                IsTransformPending:
+                                    -Value: "false"
+                                TimeAndValueTransforms: ""
+                            Events:
+                                EnumEvent:
+                                    -Id: "0"
+                                    -Time: "-63072000"
+                                    -Value: "201"
                           EnvelopeTarget:
-                              PointeeId:
-                                  -Value: "10"
+                            PointeeId:
+                                -Value: "10"
                         - -Id: "1"
                           Automation:
-                              AutomationTransformViewState:
-                                  IsTransformPending:
-                                      -Value: "false"
-                                  TimeAndValueTransforms: ""
-                              Events:
-                                  FloatEvent:
-                                      -Id: "0"
-                                      -Time: "-63072000"
-                                      -Value: "120"
+                            AutomationTransformViewState:
+                                IsTransformPending:
+                                    -Value: "false"
+                                TimeAndValueTransforms: ""
+                            Events:
+                                FloatEvent:
+                                    -Id: "0"
+                                    -Time: "-63072000"
+                                    -Value: "120"
                           EnvelopeTarget:
-                              PointeeId:
-                                  -Value: "8"
+                            PointeeId:
+                                -Value: "8"
             ClipSlotsListWrapper:
                 -LomId: "0"
             Color:
@@ -621,7 +621,7 @@ Ableton:
                     Target:
                         -Value: MidiIn/External.All/-1
                     UpperDisplayString:
-                        -Value: "Ext: All Ins"
+                        -Value: 'Ext: All Ins'
                 MidiOutputRouting:
                     LowerDisplayString:
                         -Value: ""
@@ -904,7 +904,7 @@ Ableton:
             TrackUnfolded:
                 -Value: "false"
             ViewData:
-                -Value: "{}"
+                -Value: '{}'
         MidiFoldIn:
             -Value: "false"
         MidiFoldMode:
@@ -1297,49 +1297,49 @@ Ableton:
                     Breakpoint:
                         - -Id: "0"
                           Control1X:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control1Y:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control2X:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control2Y:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           IsActive:
-                              -Value: "true"
+                            -Value: "true"
                           Time:
-                              -Value: "0"
+                            -Value: "0"
                           Value:
-                              -Value: "0.5"
+                            -Value: "0.5"
                         - -Id: "1"
                           Control1X:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control1Y:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control2X:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control2Y:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           IsActive:
-                              -Value: "false"
+                            -Value: "false"
                           Time:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Value:
-                              -Value: "0.5"
+                            -Value: "0.5"
                         - -Id: "2"
                           Control1X:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control1Y:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control2X:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           Control2Y:
-                              -Value: "0.5"
+                            -Value: "0.5"
                           IsActive:
-                              -Value: "true"
+                            -Value: "true"
                           Time:
-                              -Value: "1"
+                            -Value: "1"
                           Value:
-                              -Value: "0.5"
+                            -Value: "0.5"
                 NamedKeyMidiRemoteables:
                     NamedRemoteableKeyMidi:
                         - -Id: "63"
@@ -1460,7 +1460,7 @@ Ableton:
                     Target:
                         -Value: MidiIn/External.All/-1
                     UpperDisplayString:
-                        -Value: "Ext: All Ins"
+                        -Value: 'Ext: All Ins'
                 MidiOutputRouting:
                     LowerDisplayString:
                         -Value: ""
@@ -1671,7 +1671,7 @@ Ableton:
             TrackUnfolded:
                 -Value: "false"
             ViewData:
-                -Value: "{}"
+                -Value: '{}'
         PreferFlatRootNote:
             -Value: "false"
         ResetNonautomatedMidiControllersOnClipStarts:
@@ -1687,324 +1687,324 @@ Ableton:
             Scene:
                 - -Id: "0"
                   Annotation:
-                      -Value: ""
+                    -Value: ""
                   ClipSlotsListWrapper:
-                      -LomId: "0"
+                    -LomId: "0"
                   Color:
-                      -Value: "-1"
+                    -Value: "-1"
                   FollowAction:
-                      FollowActionA:
-                          -Value: "4"
-                      FollowActionB:
-                          -Value: "0"
-                      FollowActionEnabled:
-                          -Value: "false"
-                      FollowChanceA:
-                          -Value: "100"
-                      FollowChanceB:
-                          -Value: "0"
-                      FollowTime:
-                          -Value: "4"
-                      IsLinked:
-                          -Value: "true"
-                      JumpIndexA:
-                          -Value: "0"
-                      JumpIndexB:
-                          -Value: "0"
-                      LoopIterations:
-                          -Value: "1"
+                    FollowActionA:
+                        -Value: "4"
+                    FollowActionB:
+                        -Value: "0"
+                    FollowActionEnabled:
+                        -Value: "false"
+                    FollowChanceA:
+                        -Value: "100"
+                    FollowChanceB:
+                        -Value: "0"
+                    FollowTime:
+                        -Value: "4"
+                    IsLinked:
+                        -Value: "true"
+                    JumpIndexA:
+                        -Value: "0"
+                    JumpIndexB:
+                        -Value: "0"
+                    LoopIterations:
+                        -Value: "1"
                   IsTempoEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   IsTimeSignatureEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   LomId:
-                      -Value: "0"
+                    -Value: "0"
                   Name:
-                      -Value: ""
+                    -Value: ""
                   Tempo:
-                      -Value: "120"
+                    -Value: "120"
                   TimeSignatureId:
-                      -Value: "201"
+                    -Value: "201"
                 - -Id: "1"
                   Annotation:
-                      -Value: ""
+                    -Value: ""
                   ClipSlotsListWrapper:
-                      -LomId: "0"
+                    -LomId: "0"
                   Color:
-                      -Value: "-1"
+                    -Value: "-1"
                   FollowAction:
-                      FollowActionA:
-                          -Value: "4"
-                      FollowActionB:
-                          -Value: "0"
-                      FollowActionEnabled:
-                          -Value: "false"
-                      FollowChanceA:
-                          -Value: "100"
-                      FollowChanceB:
-                          -Value: "0"
-                      FollowTime:
-                          -Value: "4"
-                      IsLinked:
-                          -Value: "true"
-                      JumpIndexA:
-                          -Value: "0"
-                      JumpIndexB:
-                          -Value: "0"
-                      LoopIterations:
-                          -Value: "1"
+                    FollowActionA:
+                        -Value: "4"
+                    FollowActionB:
+                        -Value: "0"
+                    FollowActionEnabled:
+                        -Value: "false"
+                    FollowChanceA:
+                        -Value: "100"
+                    FollowChanceB:
+                        -Value: "0"
+                    FollowTime:
+                        -Value: "4"
+                    IsLinked:
+                        -Value: "true"
+                    JumpIndexA:
+                        -Value: "0"
+                    JumpIndexB:
+                        -Value: "0"
+                    LoopIterations:
+                        -Value: "1"
                   IsTempoEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   IsTimeSignatureEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   LomId:
-                      -Value: "0"
+                    -Value: "0"
                   Name:
-                      -Value: ""
+                    -Value: ""
                   Tempo:
-                      -Value: "120"
+                    -Value: "120"
                   TimeSignatureId:
-                      -Value: "201"
+                    -Value: "201"
                 - -Id: "2"
                   Annotation:
-                      -Value: ""
+                    -Value: ""
                   ClipSlotsListWrapper:
-                      -LomId: "0"
+                    -LomId: "0"
                   Color:
-                      -Value: "-1"
+                    -Value: "-1"
                   FollowAction:
-                      FollowActionA:
-                          -Value: "4"
-                      FollowActionB:
-                          -Value: "0"
-                      FollowActionEnabled:
-                          -Value: "false"
-                      FollowChanceA:
-                          -Value: "100"
-                      FollowChanceB:
-                          -Value: "0"
-                      FollowTime:
-                          -Value: "4"
-                      IsLinked:
-                          -Value: "true"
-                      JumpIndexA:
-                          -Value: "0"
-                      JumpIndexB:
-                          -Value: "0"
-                      LoopIterations:
-                          -Value: "1"
+                    FollowActionA:
+                        -Value: "4"
+                    FollowActionB:
+                        -Value: "0"
+                    FollowActionEnabled:
+                        -Value: "false"
+                    FollowChanceA:
+                        -Value: "100"
+                    FollowChanceB:
+                        -Value: "0"
+                    FollowTime:
+                        -Value: "4"
+                    IsLinked:
+                        -Value: "true"
+                    JumpIndexA:
+                        -Value: "0"
+                    JumpIndexB:
+                        -Value: "0"
+                    LoopIterations:
+                        -Value: "1"
                   IsTempoEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   IsTimeSignatureEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   LomId:
-                      -Value: "0"
+                    -Value: "0"
                   Name:
-                      -Value: ""
+                    -Value: ""
                   Tempo:
-                      -Value: "120"
+                    -Value: "120"
                   TimeSignatureId:
-                      -Value: "201"
+                    -Value: "201"
                 - -Id: "3"
                   Annotation:
-                      -Value: ""
+                    -Value: ""
                   ClipSlotsListWrapper:
-                      -LomId: "0"
+                    -LomId: "0"
                   Color:
-                      -Value: "-1"
+                    -Value: "-1"
                   FollowAction:
-                      FollowActionA:
-                          -Value: "4"
-                      FollowActionB:
-                          -Value: "0"
-                      FollowActionEnabled:
-                          -Value: "false"
-                      FollowChanceA:
-                          -Value: "100"
-                      FollowChanceB:
-                          -Value: "0"
-                      FollowTime:
-                          -Value: "4"
-                      IsLinked:
-                          -Value: "true"
-                      JumpIndexA:
-                          -Value: "0"
-                      JumpIndexB:
-                          -Value: "0"
-                      LoopIterations:
-                          -Value: "1"
+                    FollowActionA:
+                        -Value: "4"
+                    FollowActionB:
+                        -Value: "0"
+                    FollowActionEnabled:
+                        -Value: "false"
+                    FollowChanceA:
+                        -Value: "100"
+                    FollowChanceB:
+                        -Value: "0"
+                    FollowTime:
+                        -Value: "4"
+                    IsLinked:
+                        -Value: "true"
+                    JumpIndexA:
+                        -Value: "0"
+                    JumpIndexB:
+                        -Value: "0"
+                    LoopIterations:
+                        -Value: "1"
                   IsTempoEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   IsTimeSignatureEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   LomId:
-                      -Value: "0"
+                    -Value: "0"
                   Name:
-                      -Value: ""
+                    -Value: ""
                   Tempo:
-                      -Value: "120"
+                    -Value: "120"
                   TimeSignatureId:
-                      -Value: "201"
+                    -Value: "201"
                 - -Id: "4"
                   Annotation:
-                      -Value: ""
+                    -Value: ""
                   ClipSlotsListWrapper:
-                      -LomId: "0"
+                    -LomId: "0"
                   Color:
-                      -Value: "-1"
+                    -Value: "-1"
                   FollowAction:
-                      FollowActionA:
-                          -Value: "4"
-                      FollowActionB:
-                          -Value: "0"
-                      FollowActionEnabled:
-                          -Value: "false"
-                      FollowChanceA:
-                          -Value: "100"
-                      FollowChanceB:
-                          -Value: "0"
-                      FollowTime:
-                          -Value: "4"
-                      IsLinked:
-                          -Value: "true"
-                      JumpIndexA:
-                          -Value: "0"
-                      JumpIndexB:
-                          -Value: "0"
-                      LoopIterations:
-                          -Value: "1"
+                    FollowActionA:
+                        -Value: "4"
+                    FollowActionB:
+                        -Value: "0"
+                    FollowActionEnabled:
+                        -Value: "false"
+                    FollowChanceA:
+                        -Value: "100"
+                    FollowChanceB:
+                        -Value: "0"
+                    FollowTime:
+                        -Value: "4"
+                    IsLinked:
+                        -Value: "true"
+                    JumpIndexA:
+                        -Value: "0"
+                    JumpIndexB:
+                        -Value: "0"
+                    LoopIterations:
+                        -Value: "1"
                   IsTempoEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   IsTimeSignatureEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   LomId:
-                      -Value: "0"
+                    -Value: "0"
                   Name:
-                      -Value: ""
+                    -Value: ""
                   Tempo:
-                      -Value: "120"
+                    -Value: "120"
                   TimeSignatureId:
-                      -Value: "201"
+                    -Value: "201"
                 - -Id: "5"
                   Annotation:
-                      -Value: ""
+                    -Value: ""
                   ClipSlotsListWrapper:
-                      -LomId: "0"
+                    -LomId: "0"
                   Color:
-                      -Value: "-1"
+                    -Value: "-1"
                   FollowAction:
-                      FollowActionA:
-                          -Value: "4"
-                      FollowActionB:
-                          -Value: "0"
-                      FollowActionEnabled:
-                          -Value: "false"
-                      FollowChanceA:
-                          -Value: "100"
-                      FollowChanceB:
-                          -Value: "0"
-                      FollowTime:
-                          -Value: "4"
-                      IsLinked:
-                          -Value: "true"
-                      JumpIndexA:
-                          -Value: "0"
-                      JumpIndexB:
-                          -Value: "0"
-                      LoopIterations:
-                          -Value: "1"
+                    FollowActionA:
+                        -Value: "4"
+                    FollowActionB:
+                        -Value: "0"
+                    FollowActionEnabled:
+                        -Value: "false"
+                    FollowChanceA:
+                        -Value: "100"
+                    FollowChanceB:
+                        -Value: "0"
+                    FollowTime:
+                        -Value: "4"
+                    IsLinked:
+                        -Value: "true"
+                    JumpIndexA:
+                        -Value: "0"
+                    JumpIndexB:
+                        -Value: "0"
+                    LoopIterations:
+                        -Value: "1"
                   IsTempoEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   IsTimeSignatureEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   LomId:
-                      -Value: "0"
+                    -Value: "0"
                   Name:
-                      -Value: ""
+                    -Value: ""
                   Tempo:
-                      -Value: "120"
+                    -Value: "120"
                   TimeSignatureId:
-                      -Value: "201"
+                    -Value: "201"
                 - -Id: "6"
                   Annotation:
-                      -Value: ""
+                    -Value: ""
                   ClipSlotsListWrapper:
-                      -LomId: "0"
+                    -LomId: "0"
                   Color:
-                      -Value: "-1"
+                    -Value: "-1"
                   FollowAction:
-                      FollowActionA:
-                          -Value: "4"
-                      FollowActionB:
-                          -Value: "0"
-                      FollowActionEnabled:
-                          -Value: "false"
-                      FollowChanceA:
-                          -Value: "100"
-                      FollowChanceB:
-                          -Value: "0"
-                      FollowTime:
-                          -Value: "4"
-                      IsLinked:
-                          -Value: "true"
-                      JumpIndexA:
-                          -Value: "0"
-                      JumpIndexB:
-                          -Value: "0"
-                      LoopIterations:
-                          -Value: "1"
+                    FollowActionA:
+                        -Value: "4"
+                    FollowActionB:
+                        -Value: "0"
+                    FollowActionEnabled:
+                        -Value: "false"
+                    FollowChanceA:
+                        -Value: "100"
+                    FollowChanceB:
+                        -Value: "0"
+                    FollowTime:
+                        -Value: "4"
+                    IsLinked:
+                        -Value: "true"
+                    JumpIndexA:
+                        -Value: "0"
+                    JumpIndexB:
+                        -Value: "0"
+                    LoopIterations:
+                        -Value: "1"
                   IsTempoEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   IsTimeSignatureEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   LomId:
-                      -Value: "0"
+                    -Value: "0"
                   Name:
-                      -Value: ""
+                    -Value: ""
                   Tempo:
-                      -Value: "120"
+                    -Value: "120"
                   TimeSignatureId:
-                      -Value: "201"
+                    -Value: "201"
                 - -Id: "7"
                   Annotation:
-                      -Value: ""
+                    -Value: ""
                   ClipSlotsListWrapper:
-                      -LomId: "0"
+                    -LomId: "0"
                   Color:
-                      -Value: "-1"
+                    -Value: "-1"
                   FollowAction:
-                      FollowActionA:
-                          -Value: "4"
-                      FollowActionB:
-                          -Value: "0"
-                      FollowActionEnabled:
-                          -Value: "false"
-                      FollowChanceA:
-                          -Value: "100"
-                      FollowChanceB:
-                          -Value: "0"
-                      FollowTime:
-                          -Value: "4"
-                      IsLinked:
-                          -Value: "true"
-                      JumpIndexA:
-                          -Value: "0"
-                      JumpIndexB:
-                          -Value: "0"
-                      LoopIterations:
-                          -Value: "1"
+                    FollowActionA:
+                        -Value: "4"
+                    FollowActionB:
+                        -Value: "0"
+                    FollowActionEnabled:
+                        -Value: "false"
+                    FollowChanceA:
+                        -Value: "100"
+                    FollowChanceB:
+                        -Value: "0"
+                    FollowTime:
+                        -Value: "4"
+                    IsLinked:
+                        -Value: "true"
+                    JumpIndexA:
+                        -Value: "0"
+                    JumpIndexB:
+                        -Value: "0"
+                    LoopIterations:
+                        -Value: "1"
                   IsTempoEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   IsTimeSignatureEnabled:
-                      -Value: "false"
+                    -Value: "false"
                   LomId:
-                      -Value: "0"
+                    -Value: "0"
                   Name:
-                      -Value: ""
+                    -Value: ""
                   Tempo:
-                      -Value: "120"
+                    -Value: "120"
                   TimeSignatureId:
-                      -Value: "201"
+                    -Value: "201"
         ScenesListWrapper:
             -LomId: "0"
         SelectedBreakpointValue:
@@ -2142,76 +2142,76 @@ Ableton:
                             ClipSlot:
                                 - -Id: "0"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "1"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "2"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "3"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "4"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "5"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "6"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "7"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                         ComplexProEnvelopeModulationTarget:
                             -Id: "22155"
                             LockEnvelope:
@@ -2316,76 +2316,76 @@ Ableton:
                             ClipSlot:
                                 - -Id: "0"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "1"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "2"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "3"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "4"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "5"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "6"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                                 - -Id: "7"
                                   ClipSlot:
-                                      Value: ""
+                                    Value: ""
                                   HasStop:
-                                      -Value: "true"
+                                    -Value: "true"
                                   LomId:
-                                      -Value: "0"
+                                    -Value: "0"
                                   NeedRefreeze:
-                                      -Value: "true"
+                                    -Value: "true"
                         ClipTimeable:
                             ArrangerAutomation:
                                 AutomationTransformViewState:
@@ -2985,7 +2985,7 @@ Ableton:
                         Target:
                             -Value: MidiIn/External.All/-1
                         UpperDisplayString:
-                            -Value: "Ext: All Ins"
+                            -Value: 'Ext: All Ins'
                     MidiOutputRouting:
                         LowerDisplayString:
                             -Value: ""
@@ -3245,7 +3245,7 @@ Ableton:
             -Right: "-2147483648"
             -Top: "-2147483648"
         ViewData:
-            -Value: "{}"
+            -Value: '{}'
         ViewStateArrangerMixerVolumeSectionHeight:
             -Value: "120"
         ViewStateFxSlotCount:
