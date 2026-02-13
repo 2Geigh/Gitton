@@ -10,6 +10,9 @@
 
 [x] Parse .als files into XML
 [x] Parse .als files into YAML
+[x] Make it so when you save a .als file it detects it
+[x] Make it so when you do `gitton init` it in a directory containing a `Ableton Project Info` directory **and** an `*.als` file, it creates a `.gitton` directory
+    - [x] If the above condition is not met, then the program must tell the user `"Gitton must be initialized in an Ableton Project folder."`
 
 ## GUI
 

@@ -1,84 +1,15 @@
-package main
+package util
 
 import (
 	"bytes"
 	"compress/gzip"
 	"fmt"
 	"io"
-	"log"
 	"os"
 
 	"github.com/clbanning/mxj/v2"
-	"github.com/fsnotify/fsnotify"
 	"gopkg.in/yaml.v3"
 )
-
-var (
-	filePath string = "./bin/120bpm-C-44.1kHz-1_blank_midi-empty Project/120bpm-C-44.1kHz-1_blank_midi-empty.als"
-)
-
-func main() {
-
-	if len(os.Args) > 2 {
-		fmt.Println("too many arguments")
-		os.Exit(1)
-	}
-
-	if len(os.Args) > 1 {
-		switch os.Args[1] {
-		case "init":
-			// check that we're in an Ableton project folder.
-			// If not, throw error
-			fmt.Println("Initializing version control...")
-			os.Exit(0)
-		default:
-			fmt.Println("Welcome to the Gitton CLI! 🐈")
-			os.Exit(0)
-		}
-	}
-
-	// Create new watcher.
-	watcher, err := fsnotify.NewWatcher()
-	if err != nil {
-		log.Fatal(err)
-	}
-	defer watcher.Close()
-
-	// Start listening for events.
-	go func() {
-		for {
-			select {
-			case event, ok := <-watcher.Events:
-				if !ok {
-					return
-				}
-				if !isAlsFile(event.Name) {
-					continue
-				}
-				_, err := ReadAlsFile(event.Name)
-				if err != nil {
-					log.Println(fmt.Errorf("couldn't read .als file: %w", err))
-				}
-				log.Println("File change detected:", event.Name)
-
-			case err, ok := <-watcher.Errors:
-				if !ok {
-					log.Println("error:", err)
-					return
-				}
-			}
-		}
-	}()
-
-	// Add a path.
-	err = watcher.Add("./")
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	// Block main goroutine forever.
-	<-make(chan struct{})
-}
 
 func ReadAlsFile(filePath string) (string, error) {
 	data, err := os.ReadFile(filePath)
