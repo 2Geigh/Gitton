@@ -52,10 +52,10 @@ func Init() error {
 		return fmt.Errorf("couldn't create .gitton directory: %w", err)
 	}
 
-	// Create .gitton subdirectories
-	err = os.Mkdir(".gitton/HEAD", permissions)
+	// Populate .gitton directory
+	err = build_head_directory()
 	if err != nil {
-		return fmt.Errorf("mkdir 'HEAD' failed: %w", err)
+		return fmt.Errorf("'.gitton/HEAD' directory build failed: %w", err)
 	}
 
 	err = os.Mkdir(".gitton/config", permissions)
@@ -109,6 +109,20 @@ func build_refs_directory() error {
 	err = os.Mkdir(".gitton/refs/tags", permissions)
 	if err != nil {
 		return fmt.Errorf("mkdir '.gitton/refs/tags' failed: %w", err)
+	}
+
+	return nil
+}
+
+func build_head_directory() error {
+	HEAD, err := os.Create(".gitton/HEAD")
+	if err != nil {
+		return fmt.Errorf("touch '.gitton/HEAD' failed: %w", err)
+	}
+
+	err = os.WriteFile(HEAD.Name(), []byte("refs/heads/master"), permissions)
+	if err != nil {
+		return fmt.Errorf("couldn't write to '.gitton/HEAD': %w", err)
 	}
 
 	return nil
