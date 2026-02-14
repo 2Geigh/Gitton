@@ -1,4 +1,4 @@
-package main
+package util
 
 import (
 	"bytes"
@@ -10,22 +10,6 @@ import (
 	"github.com/clbanning/mxj/v2"
 	"gopkg.in/yaml.v3"
 )
-
-var (
-	filePath string = "./bin/120bpm-C-44.1kHz-1_blank_midi-empty Project/120bpm-C-44.1kHz-1_blank_midi-empty.als"
-)
-
-func main() {
-	xml, err := ReadAlsFile(filePath)
-	if err != nil {
-		fmt.Print(fmt.Errorf("couldn't read .als file: %w", err))
-	}
-
-	yaml, err := convertXmlToYaml(xml)
-
-	os.WriteFile("output.yaml", []byte(yaml), 0644)
-	os.WriteFile("output.xml", []byte(xml), 0644)
-}
 
 func ReadAlsFile(filePath string) (string, error) {
 	data, err := os.ReadFile(filePath)
