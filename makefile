@@ -1,6 +1,6 @@
 # Define variables
 APP_NAME=gitton
-SRC_DIR=./cmd/main.go
+SRC_DIR=./cmd/main/main.go
 BUILD_DIR=./bin
 GOFLAGS=-v
 GOOS=linux
@@ -13,6 +13,7 @@ build:
 	@echo "Building..."
 	mkdir -p $(BUILD_DIR)
 	go build $(GOFLAGS) -o $(BUILD_DIR)/$(APP_NAME) $(SRC_DIR)
+	chmod +x $(BUILD_DIR)/$(APP_NAME)
 	@echo "Build complete. Find it at: $(BUILD_DIR)/$(APP_NAME)"
 test:
 	@echo "Running tests..."

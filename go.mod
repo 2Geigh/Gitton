@@ -1,4 +1,4 @@
-module abletongit
+module gitton
 
 go 1.25.6
 
