@@ -1,19 +1,8 @@
 # Gitton TO-DO
 
-## Meta (design, ideas, etc.)
-
-[x] Decide on framework <-- Golang([Wails](https://wails.io/)) and React
-[ ] Design the main screen for the app window
-[ ] Watch [this video](https://www.youtube.com/watch?v=RxHJdapz2p0), afterwards create business logic tasks based on what's needed to make a version control system like Git (described in the video)
-
-## Business Logic
-
-[x] Parse .als files into XML
-[x] Parse .als files into YAML
-[x] Make it so when you save a .als file it detects it
-[x] Make it so when you do `gitton init` it in a directory containing a `Ableton Project Info` directory **and** an `*.als` file, it creates a `.gitton` directory
-    - [x] If the above condition is not met, then the program must tell the user `"Gitton must be initialized in an Ableton Project folder."`
-
-## GUI
-
-[ ] Add Tailwind
+[x] 1. Decide on framework <-- Golang([Wails](https://wails.io/)) and React
+[ ] 2. Design UI screens
+[ ] 3. Implement UI screens in React with React Router (framework mode)
+[ ] 3. Ability to initialize Gitton in an existing ableton project folder
+[ ] 4. Make it so when you re-focus into the Gitton window, it checks for changes to the project
+[ ] 5. Make a project's changes shown in human-readable terms as opposed to plaintext differences
