@@ -1,0 +1,9 @@
+@use '../../../styles/GLOBAL.scss';
+
+#Changes {
+	width: 100%;
+
+	margin-left: GLOBAL.$SECTION_SPACING_LARGE;
+
+	background-color: pink;
+}
