@@ -7,9 +7,10 @@ type SidebarProps = {
 };
 const Sidebar: FC<SidebarProps> = ({ project_name }) => {
 	const [isRepoExpanded, setIsRepoExpanded] = useState<boolean>(false);
+
 	const triangleArrow = {
-		up: <>&#9650;</>,
-		down: <>&#9660;</>,
+		up: <>&#9650;</>, // ▲
+		down: <>&#9660;</>, // ▼
 	};
 
 	return (
