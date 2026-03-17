@@ -1,5 +1,6 @@
 import { Project } from '../../../shared/types/Project';
 import { FC } from 'react';
+import './Sidebar.scss';
 
 type SidebarProps = {
 	project_name: Project['name'];

@@ -1,4 +1,5 @@
 import { FC } from 'react';
+import './Changes.scss';
 
 type ChangesProps = {};
 const Changes: FC<ChangesProps> = ({}) => {

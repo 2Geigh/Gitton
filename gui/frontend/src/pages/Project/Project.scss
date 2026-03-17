@@ -1,0 +1,15 @@
+@use '../../styles/GLOBAL.scss';
+
+#ProjectView {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+
+	min-height: 100vh;
+
+	padding: GLOBAL.$SECTION_SPACING_LARGE;
+	box-sizing: border-box;
+
+	background-color: #818181;
+}
