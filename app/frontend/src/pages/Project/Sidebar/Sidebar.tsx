@@ -47,6 +47,11 @@ const Sidebar: FC<SidebarProps> = ({ project_name }) => {
 
 			{!isRepoExpanded && (
 				<div id='commit'>
+					<ul id='changedItems'>
+						<li>Meta</li>
+						<li>Audio Track 1</li>
+						<li>MIDI Track 2</li>
+					</ul>
 					<input
 						type='text'
 						name='commitName'

@@ -1,7 +1,76 @@
+@use '../../../styles/GLOBAL.scss';
+
 #Sidebar {
 	min-width: 15rem;
 	width: 25vw;
 	max-width: 30rem;
 
+	height: calc(100vh - 2 * GLOBAL.$SECTION_SPACING_LARGE);
+
 	background-color: red;
+
+	#repo {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+
+		box-sizing: border-box;
+		height: inherit;
+
+		background-color: GLOBAL.$TILE_GRAY_1;
+
+		#selectedRepo {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: nowrap;
+
+			padding: 1rem 0.75rem;
+			padding-right: 0.5rem;
+			box-sizing: border-box;
+
+			width: 100%;
+			min-height: 1rem;
+
+			border: 1px solid black;
+
+			&:hover {
+				cursor: pointer;
+			}
+
+			#name {
+				display: inline;
+				overflow: hidden;
+				overflow-wrap: break-word;
+
+				text-wrap: wrap;
+			}
+
+			#dropdownArrow {
+				padding: 0.25rem;
+
+				// background-color: blue;
+			}
+		}
+
+		#toggleable {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: flex-start;
+
+			width: 100%;
+			height: 100%;
+
+			box-sizing: border-box;
+
+			background-color: blue;
+		}
+	}
+
+	#commit {
+		background-color: GLOBAL.$TILE_GRAY_1;
+	}
 }
