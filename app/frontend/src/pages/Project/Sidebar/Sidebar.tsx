@@ -1,11 +1,60 @@
 import { Project } from '../../../shared/types/Project';
 import { FC, useState } from 'react';
 import './Sidebar.scss';
+import {
+	ProjectChanges,
+	ProjectChanges_examples,
+} from '../../../data/examples/Changes';
+import Changes from '../Changes/Changes';
+
+type CommitPanelProps = { project_name: string };
+const CommitPanel: FC<CommitPanelProps> = ({ project_name }) => {
+	return (
+		<div id='commit'>
+			<input
+				type='text'
+				name='commitName'
+				id='commitName'
+				placeholder='Commit name'
+			/>
+			<input
+				type='text'
+				name='commitDesc'
+				id='commitDesc'
+				placeholder='Commit description'
+			/>
+			<input
+				type='submit'
+				value={`Commit ${3} changes to ${project_name}`}
+			/>
+		</div>
+	);
+};
+
+type ChangesCategoriesProps = { project_changes: ProjectChanges<number> };
+const ChangesCategories: FC<ChangesCategoriesProps> = ({ project_changes }) => {
+	let Categories: JSX.Element[] = [];
+
+	if (project_changes['Live Session'].changes) {
+		Categories.push(<li className='change_category'>Live Session</li>);
+	}
+
+	if (project_changes['Midi Tracks']) {
+		Categories.push(<li className='change_category'>Midi Track(s)</li>);
+	}
+
+	if (project_changes['Audio Tracks']) {
+		Categories.push(<li className='change_category'>Audio Track(s)</li>);
+	}
+
+	return <ul id='ChangesCategories'>{Categories}</ul>;
+};
 
 type SidebarProps = {
 	project_name: Project['name'];
+	project_changes: ProjectChanges<number>;
 };
-const Sidebar: FC<SidebarProps> = ({ project_name }) => {
+const Sidebar: FC<SidebarProps> = ({ project_name, project_changes }) => {
 	const [isRepoExpanded, setIsRepoExpanded] = useState<boolean>(false);
 
 	const triangleArrow = {
@@ -46,29 +95,12 @@ const Sidebar: FC<SidebarProps> = ({ project_name }) => {
 			</div>
 
 			{!isRepoExpanded && (
-				<div id='commit'>
-					<ul id='changedItems'>
-						<li>Meta</li>
-						<li>Audio Track 1</li>
-						<li>MIDI Track 2</li>
-					</ul>
-					<input
-						type='text'
-						name='commitName'
-						id='commitName'
-						placeholder='Commit name'
+				<>
+					<ChangesCategories
+						project_changes={ProjectChanges_examples}
 					/>
-					<input
-						type='text'
-						name='commitDesc'
-						id='commitDesc'
-						placeholder='Commit description'
-					/>
-					<input
-						type='submit'
-						value={`Commit ${3} changes to ${project_name}`}
-					/>
-				</div>
+					<CommitPanel project_name={project_name} />
+				</>
 			)}
 		</div>
 	);

@@ -13,6 +13,7 @@ type Changes_Track<T> = Array<{
 	changes: Array<Change_Track<T>>;
 }>;
 
+export type ChangeCategory = 'Live Session' | 'Midi Tracks' | 'Audio Tracks';
 export type ProjectChanges<T> = {
 	'Live Session': Changes_Meta<T>;
 
