@@ -1,18 +1,26 @@
-type Category = 'Live Session' | 'Midi Tracks' | 'Audio Tracks';
+type Change_Meta<T> = {
+	property: string;
+	init: T | null;
+	final: T | null;
+};
+type Change_Track<T> = Change_Meta<T> & {
+	type: 'EDIT' | 'DELETE' | 'ADD';
+};
 
-type Change_Delete = 'DELETED';
-type Change_Add<T> = { property: string; init: T };
-type Change_Edit<T> = { property: string; init: T; final: T };
-type Change<T> = Change_Delete | Change_Add<T> | Change_Edit<T>;
-
-type Changes_Meta<T> = { changes: Array<Change<T>> };
+type Changes_Meta<T> = { changes: Array<Change_Meta<T>> };
 type Changes_Track<T> = Array<{
 	track_name: string;
-	changes: Array<Change<T>>;
+	changes: Array<Change_Track<T>>;
 }>;
-type Changes<T> = Changes_Meta<T> | Changes_Track<T>;
 
-export const Changes: Record<Category, Changes<number>> = {
+export type ProjectChanges<T> = {
+	'Live Session': Changes_Meta<T>;
+
+	'Midi Tracks': Changes_Track<T>;
+
+	'Audio Tracks': Changes_Track<T>;
+};
+export const ProjectChanges_examples: ProjectChanges<number> = {
 	'Live Session': {
 		changes: [{ property: 'Tempo', init: 120, final: 128 }],
 	},
@@ -21,9 +29,9 @@ export const Changes: Record<Category, Changes<number>> = {
 		{
 			track_name: 'Midi Track 1',
 			changes: [
-				{ property: 'Property X', init: 0, final: 1 },
-				{ property: 'Property Y', init: 1, final: 2 },
-				{ property: 'Property Z', init: 2, final: 2 },
+				{ property: 'Property X', init: 0, final: 1, type: 'EDIT' },
+				{ property: 'Property Y', init: 1, final: 2, type: 'EDIT' },
+				{ property: 'Property Z', init: 2, final: 2, type: 'EDIT' },
 			],
 		},
 	],
@@ -31,11 +39,15 @@ export const Changes: Record<Category, Changes<number>> = {
 	'Audio Tracks': [
 		{
 			track_name: 'Audio Track 3',
-			changes: ['DELETED'],
+			changes: [
+				{ property: 'X', init: 102, final: null, type: 'DELETE' }, // deleted
+			],
 		},
 		{
 			track_name: 'Audio Track 4',
-			changes: [{ property: 'thing', init: -1 }],
+			changes: [
+				{ property: 'thing', init: null, final: -1, type: 'ADD' },
+			],
 		},
 	],
 };
