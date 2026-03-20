@@ -64,7 +64,10 @@ const Sidebar: FC<SidebarProps> = ({ project_name, project_changes }) => {
 
 	return (
 		<div id='Sidebar'>
-			<div id='repo'>
+			<div
+				id='repo'
+				className={isRepoExpanded ? 'expanded' : ''}
+			>
 				<div
 					id='selectedRepo'
 					onClick={() => {

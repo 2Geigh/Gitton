@@ -1,6 +1,10 @@
 @use '../../../styles/GLOBAL.scss';
 
 #Sidebar {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
 	min-width: 15rem;
 	width: 25vw;
 	max-width: 30rem;
@@ -16,9 +20,12 @@
 		align-items: center;
 
 		box-sizing: border-box;
-		height: inherit;
 
 		background-color: GLOBAL.$TILE_GRAY_1;
+
+		&.expanded {
+			height: inherit;
+		}
 
 		#selectedRepo {
 			display: flex;
