@@ -11,7 +11,7 @@
 
 	height: calc(100vh - 2 * GLOBAL.$SECTION_SPACING_LARGE);
 
-	background-color: red;
+	// background-color: red;
 
 	#repo {
 		display: flex;
@@ -34,7 +34,7 @@
 			align-items: center;
 			flex-wrap: nowrap;
 
-			padding: 1rem 0.75rem;
+			padding: 1rem GLOBAL.$SECTION_PADDING;
 			padding-right: 0.5rem;
 			box-sizing: border-box;
 
@@ -84,6 +84,13 @@
 	#ChangesCategories {
 		height: 100%;
 
+		margin: GLOBAL.$SECTION_SPACING_MEDIUM 0;
+
+		box-sizing: border-box;
+		padding: GLOBAL.$SECTION_PADDING;
+
+		list-style-type: none;
+
 		background-color: aqua;
 	}
 
@@ -94,11 +101,11 @@
 		align-items: stretch;
 
 		box-sizing: border-box;
-		padding: 0.75rem;
+		padding: GLOBAL.$SECTION_PADDING;
 		padding-bottom: 0;
 
 		input {
-			margin-bottom: 0.75rem;
+			margin-bottom: GLOBAL.$SECTION_PADDING;
 
 			padding: 0.25rem 0.5rem;
 		}
