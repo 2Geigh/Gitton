@@ -16,6 +16,7 @@ const CommitPanel: FC<CommitPanelProps> = ({ project_name }) => {
 				name='commitName'
 				id='commitName'
 				placeholder='Commit name'
+				required
 			/>
 			<input
 				type='text'
