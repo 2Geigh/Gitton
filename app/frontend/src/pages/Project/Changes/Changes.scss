@@ -5,5 +5,19 @@
 
 	margin-left: GLOBAL.$SECTION_SPACING_LARGE;
 
-	background-color: pink;
+	background-color: GLOBAL.$TILE_GRAY_1;
+
+	.change_item {
+		// background-color: red;
+
+		.header {
+			// background-color: orange;
+		}
+
+		ul.changes {
+			list-style-type: none;
+
+			// background-color: yellow;
+		}
+	}
 }
