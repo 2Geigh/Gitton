@@ -24,6 +24,7 @@ const CommitPanel: FC<CommitPanelProps> = ({ project_name }) => {
 				placeholder='Commit description'
 			/>
 			<input
+				id='commitSubmit'
 				type='submit'
 				value={`Commit ${3} changes to ${project_name}`}
 			/>
