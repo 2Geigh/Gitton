@@ -5,7 +5,6 @@ import {
 	ProjectChanges,
 	ProjectChanges_examples,
 } from '../../../data/examples/Changes';
-import Changes from '../Changes/Changes';
 
 type CommitPanelProps = { project_name: string };
 const CommitPanel: FC<CommitPanelProps> = ({ project_name }) => {
@@ -33,28 +32,24 @@ const CommitPanel: FC<CommitPanelProps> = ({ project_name }) => {
 	);
 };
 
-type ChangesCategoriesProps = { project_changes: ProjectChanges<number> };
+type ChangesCategoriesProps = { project_changes: ProjectChanges };
 const ChangesCategories: FC<ChangesCategoriesProps> = ({ project_changes }) => {
-	let Categories: JSX.Element[] = [];
+	let Categories: JSX.Element[] = project_changes.map((changed_track) => {
+		const changeType = changed_track.changeType.toLowerCase();
 
-	if (project_changes['Live Session'].changes) {
-		Categories.push(<li className='change_category'>Live Session</li>);
-	}
-
-	if (project_changes['Midi Tracks']) {
-		Categories.push(<li className='change_category'>Midi Track(s)</li>);
-	}
-
-	if (project_changes['Audio Tracks']) {
-		Categories.push(<li className='change_category'>Audio Track(s)</li>);
-	}
+		return (
+			<li className={`change_category ${changeType}`}>
+				{changed_track.name}
+			</li>
+		);
+	});
 
 	return <ul id='ChangesCategories'>{Categories}</ul>;
 };
 
 type SidebarProps = {
 	project_name: Project['name'];
-	project_changes: ProjectChanges<number>;
+	project_changes: ProjectChanges;
 };
 const Sidebar: FC<SidebarProps> = ({ project_name, project_changes }) => {
 	const [isRepoExpanded, setIsRepoExpanded] = useState<boolean>(false);

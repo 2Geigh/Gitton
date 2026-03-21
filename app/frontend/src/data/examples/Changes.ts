@@ -10,7 +10,9 @@ type ChangedTracks = {
 	}>;
 };
 
-export const ProjectChanges_examples: Array<ChangedTracks> = [
+export type ProjectChanges = Array<ChangedTracks>;
+
+export const ProjectChanges_examples: ProjectChanges = [
 	{
 		name: 'Meta',
 		itemType: 'Meta',

@@ -7,7 +7,7 @@ import { ProjectChanges } from '../../data/examples/Changes';
 
 type ProjectProps = {
 	project: Project;
-	changes: ProjectChanges<number>;
+	changes: ProjectChanges;
 };
 const ProjectView: FC<ProjectProps> = ({ project, changes }) => {
 	return (
