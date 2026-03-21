@@ -105,6 +105,18 @@
 
 			background-color: GLOBAL.$TILE_GRAY_2;
 
+			&.selected {
+				background-color: GLOBAL.$TILE_GRAY_3;
+
+				&:hover {
+					background-color: GLOBAL.$TILE_GRAY_3_HOVER;
+				}
+
+				&:active {
+					background-color: GLOBAL.$TILE_GRAY_3_ACTIVE;
+				}
+			}
+
 			&:hover {
 				cursor: pointer;
 				background-color: GLOBAL.$TILE_GRAY_2_HOVER;
@@ -126,13 +138,25 @@
 		padding: GLOBAL.$SECTION_PADDING;
 		padding-bottom: 0;
 
-		input {
+		input,
+		textarea {
 			margin-bottom: GLOBAL.$SECTION_PADDING;
 
 			outline: none;
 			border: 1px solid black;
 
 			padding: 0.25rem 0.5rem;
+		}
+
+		#commitDesc {
+			height: auto;
+			max-width: 100%;
+
+			padding: 0.5rem;
+
+			overflow-y: visible;
+			overflow-x: hidden;
+			overflow-wrap: break-word;
 		}
 
 		#commitSubmit {

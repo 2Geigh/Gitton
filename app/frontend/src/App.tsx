@@ -5,10 +5,7 @@ import { ProjectChanges_examples } from './data/examples/Changes';
 function App() {
 	return (
 		<div id='App'>
-			<Project
-				project={Project_example_1}
-				changes={ProjectChanges_examples}
-			/>
+			<Project project={Project_example_1} />
 		</div>
 	);
 }

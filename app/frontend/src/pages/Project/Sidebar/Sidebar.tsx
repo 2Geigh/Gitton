@@ -1,7 +1,8 @@
 import { Project } from '../../../shared/types/Project';
-import { FC, useState } from 'react';
+import { Dispatch, FC, SetStateAction, useState } from 'react';
 import './Sidebar.scss';
 import {
+	ChangedTrack,
 	ProjectChanges,
 	ProjectChanges_examples,
 } from '../../../data/examples/Changes';
@@ -17,12 +18,11 @@ const CommitPanel: FC<CommitPanelProps> = ({ project_name }) => {
 				placeholder='Commit name'
 				required
 			/>
-			<input
-				type='text'
+			<textarea
 				name='commitDesc'
 				id='commitDesc'
 				placeholder='Commit description'
-			/>
+			></textarea>
 			<input
 				id='commitSubmit'
 				type='submit'
@@ -32,13 +32,29 @@ const CommitPanel: FC<CommitPanelProps> = ({ project_name }) => {
 	);
 };
 
-type ChangesCategoriesProps = { project_changes: ProjectChanges };
-const ChangesCategories: FC<ChangesCategoriesProps> = ({ project_changes }) => {
+type ChangesCategoriesProps = {
+	project_changes: ProjectChanges;
+	setCurrentlySelectedChangedTrack: Dispatch<
+		SetStateAction<ChangedTrack | null>
+	>;
+	currentlySelectedChangedTrack: ChangedTrack | null;
+};
+const ChangesCategories: FC<ChangesCategoriesProps> = ({
+	project_changes,
+	currentlySelectedChangedTrack,
+	setCurrentlySelectedChangedTrack,
+}) => {
 	let Categories: JSX.Element[] = project_changes.map((changed_track) => {
 		const changeType = changed_track.changeType.toLowerCase();
 
 		return (
-			<li className={`change_category ${changeType}`}>
+			<li
+				onClick={() => {
+					setCurrentlySelectedChangedTrack(changed_track);
+				}}
+				key={changed_track.id}
+				className={`change_category ${changeType} ${currentlySelectedChangedTrack?.id === changed_track.id && 'selected'}`}
+			>
 				{changed_track.name}
 			</li>
 		);
@@ -49,9 +65,16 @@ const ChangesCategories: FC<ChangesCategoriesProps> = ({ project_changes }) => {
 
 type SidebarProps = {
 	project_name: Project['name'];
-	project_changes: ProjectChanges;
+	currentlySelectedChangedTrack: ChangedTrack | null;
+	setCurrentlySelectedChangedTrack: Dispatch<
+		SetStateAction<ChangedTrack | null>
+	>;
 };
-const Sidebar: FC<SidebarProps> = ({ project_name, project_changes }) => {
+const Sidebar: FC<SidebarProps> = ({
+	project_name,
+	currentlySelectedChangedTrack,
+	setCurrentlySelectedChangedTrack,
+}) => {
 	const [isRepoExpanded, setIsRepoExpanded] = useState<boolean>(false);
 
 	const triangleArrow = {
@@ -97,6 +120,12 @@ const Sidebar: FC<SidebarProps> = ({ project_name, project_changes }) => {
 			{!isRepoExpanded && (
 				<>
 					<ChangesCategories
+						currentlySelectedChangedTrack={
+							currentlySelectedChangedTrack
+						}
+						setCurrentlySelectedChangedTrack={
+							setCurrentlySelectedChangedTrack
+						}
 						project_changes={ProjectChanges_examples}
 					/>
 					<CommitPanel project_name={project_name} />
