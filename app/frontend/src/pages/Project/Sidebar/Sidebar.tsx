@@ -6,64 +6,8 @@ import {
 	ProjectChanges,
 	ProjectChanges_examples,
 } from '../../../data/examples/Changes';
-
-type CommitPanelProps = { project_name: string };
-const CommitPanel: FC<CommitPanelProps> = ({ project_name }) => {
-	return (
-		<div id='commit'>
-			<input
-				type='text'
-				name='commitName'
-				id='commitName'
-				placeholder='Commit name'
-				required
-			/>
-			<textarea
-				name='commitDesc'
-				id='commitDesc'
-				placeholder='Commit description'
-			></textarea>
-			<input
-				id='commitSubmit'
-				type='submit'
-				value={`Commit ${3} changes to ${project_name}`}
-			/>
-		</div>
-	);
-};
-
-type ChangesCategoriesProps = {
-	project_changes: ProjectChanges;
-	setCurrentlySelectedChangedTrack: Dispatch<
-		SetStateAction<ChangedTrack | null>
-	>;
-	currentlySelectedChangedTrack: ChangedTrack | null;
-};
-const ChangesCategories: FC<ChangesCategoriesProps> = ({
-	project_changes,
-	currentlySelectedChangedTrack,
-	setCurrentlySelectedChangedTrack,
-}) => {
-	let Categories: JSX.Element[] = project_changes.map((changed_track) => {
-		const changeType = changed_track.changeType.toLowerCase();
-
-		return (
-			<li
-				onClick={() => {
-					console.log(changed_track.id);
-					console.log(changed_track);
-					setCurrentlySelectedChangedTrack(changed_track);
-				}}
-				key={changed_track.id}
-				className={`change_category ${changeType} ${currentlySelectedChangedTrack?.id === changed_track.id && 'selected'}`}
-			>
-				{changed_track.name}
-			</li>
-		);
-	});
-
-	return <ul id='ChangesCategories'>{Categories}</ul>;
-};
+import ChangesCategories from './ChangesCategories/ChangesCategories';
+import CommitPanel from './CommitPanel/CommitPanel';
 
 type SidebarProps = {
 	project_name: Project['name'];

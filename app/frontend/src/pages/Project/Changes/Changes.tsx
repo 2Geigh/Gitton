@@ -7,9 +7,10 @@ type ChangesProps = {
 };
 const Changes: FC<ChangesProps> = ({ currentlySelectedChangedTrack }) => {
 	const ChangesItems: JSX.Element[] = [];
+
 	if (currentlySelectedChangedTrack) {
 		for (let change of currentlySelectedChangedTrack.changes) {
-			ChangesItems.push(
+			const ChangeItem: JSX.Element = (
 				<li className='change'>
 					<div className='property'>{change.property}:</div>
 					<div className='difference'>
@@ -29,8 +30,10 @@ const Changes: FC<ChangesProps> = ({ currentlySelectedChangedTrack }) => {
 							</>
 						)}
 					</div>
-				</li>,
+				</li>
 			);
+
+			ChangesItems.push(ChangeItem);
 		}
 	}
 
