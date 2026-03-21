@@ -1,54 +1,42 @@
-type Change_Meta<T> = {
-	property: string;
-	init: T | null;
-	final: T | null;
+type ChangedTracks = {
+	name: string;
+	itemType: 'Midi Track' | 'Audio Track' | 'Meta';
+	changeType: 'MODIFIED' | 'DELETED' | 'ADDED';
+	changes: Array<{
+		property: string;
+		init: number | null;
+		final: number | null;
+		type: 'EDIT' | 'DELETE' | 'ADD';
+	}>;
 };
-type Change_Track<T> = Change_Meta<T> & {
-	type: 'EDIT' | 'DELETE' | 'ADD';
-};
 
-type Changes_Meta<T> = { changes: Array<Change_Meta<T>> };
-type Changes_Track<T> = Array<{
-	track_name: string;
-	changes: Array<Change_Track<T>>;
-}>;
-
-export type ChangeCategory = 'Live Session' | 'Midi Tracks' | 'Audio Tracks';
-export type ProjectChanges<T> = {
-	'Live Session': Changes_Meta<T>;
-
-	'Midi Tracks': Changes_Track<T>;
-
-	'Audio Tracks': Changes_Track<T>;
-};
-export const ProjectChanges_examples: ProjectChanges<number> = {
-	'Live Session': {
-		changes: [{ property: 'Tempo', init: 120, final: 128 }],
+export const ProjectChanges_examples: Array<ChangedTracks> = [
+	{
+		name: 'Meta',
+		itemType: 'Meta',
+		changeType: 'MODIFIED',
+		changes: [{ property: 'Tempo', init: 120, final: 128, type: 'EDIT' }],
 	},
-
-	'Midi Tracks': [
-		{
-			track_name: 'Midi Track 1',
-			changes: [
-				{ property: 'Property X', init: 0, final: 1, type: 'EDIT' },
-				{ property: 'Property Y', init: 1, final: 2, type: 'EDIT' },
-				{ property: 'Property Z', init: 2, final: 2, type: 'EDIT' },
-			],
-		},
-	],
-
-	'Audio Tracks': [
-		{
-			track_name: 'Audio Track 3',
-			changes: [
-				{ property: 'X', init: 102, final: null, type: 'DELETE' }, // deleted
-			],
-		},
-		{
-			track_name: 'Audio Track 4',
-			changes: [
-				{ property: 'thing', init: null, final: -1, type: 'ADD' },
-			],
-		},
-	],
-};
+	{
+		name: 'Midi Track 1',
+		itemType: 'Midi Track',
+		changeType: 'MODIFIED',
+		changes: [
+			{ property: 'Property X', init: 0, final: 1, type: 'EDIT' },
+			{ property: 'Property Y', init: 1, final: 2, type: 'EDIT' },
+			{ property: 'Property Z', init: 2, final: 2, type: 'EDIT' },
+		],
+	},
+	{
+		name: 'Audio Track 3',
+		itemType: 'Midi Track',
+		changeType: 'DELETED',
+		changes: [{ property: 'X', init: 102, final: null, type: 'DELETE' }],
+	},
+	{
+		name: 'Audio Track 4',
+		itemType: 'Midi Track',
+		changeType: 'ADDED',
+		changes: [{ property: 'thing', init: null, final: -1, type: 'ADD' }],
+	},
+];
