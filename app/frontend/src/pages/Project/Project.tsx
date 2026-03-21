@@ -21,7 +21,9 @@ const ProjectView: FC<ProjectProps> = ({ project }) => {
 					setCurrentlySelectedChangedTrack
 				}
 			/>
-			<Changes />
+			<Changes
+				currentlySelectedChangedTrack={currentlySelectedChangedTrack}
+			/>
 		</div>
 	);
 };

@@ -1,57 +1,42 @@
 import { FC } from 'react';
 import './Changes.scss';
+import { ChangedTrack } from '../../../data/examples/Changes';
 
-type ChangesProps = {};
-const Changes: FC<ChangesProps> = ({}) => {
+type ChangesProps = {
+	currentlySelectedChangedTrack: ChangedTrack | null;
+};
+const Changes: FC<ChangesProps> = ({ currentlySelectedChangedTrack }) => {
+	const ChangesItems: JSX.Element[] = [];
+	if (currentlySelectedChangedTrack) {
+		for (let change of currentlySelectedChangedTrack.changes) {
+			ChangesItems.push(
+				<li className='change'>
+					<div className='property'>{change.property}:</div>
+					<div className='difference'>
+						{change.final && (
+							<>
+								{change.init && (
+									<>
+										<div className='init'>
+											{change.init}
+										</div>
+										<div className='rightArrow'>
+											&#8594;{/* → */}
+										</div>
+									</>
+								)}
+								<div className='final'>{change.final}</div>
+							</>
+						)}
+					</div>
+				</li>,
+			);
+		}
+	}
+
 	return (
 		<div id='Changes'>
-			<div
-				className='change_item add'
-				id='audio-4'
-			>
-				<div className='header'>Meta</div>
-				<ul className='changes'>
-					<li className='change'></li>
-				</ul>
-			</div>
-			<div
-				className='change_item edit'
-				id='midi-1'
-			>
-				<div className='header'>
-					Midi Track: <i>Midi Track 1</i>
-				</div>
-				<ul className='changes'>
-					<li className='change'>
-						Property X: <span className='init'>0</span> &#8594;{' '}
-						<span className='final'>1</span>
-					</li>
-					<li className='change'>
-						Property Y: <span className='init'>0</span> &#8594;{' '}
-						<span className='final'>1</span>
-					</li>
-					<li className='change'>
-						Property Z: <span className='init'>0</span> &#8594;{' '}
-						<span className='final'>1</span>
-					</li>
-				</ul>
-			</div>
-			<div
-				className='change_item delete'
-				id='audio-3'
-			>
-				<div className='header'>
-					Audio Track: <i>Audio Track 3</i>
-				</div>
-			</div>
-			<div
-				className='change_item add'
-				id='audio-4'
-			>
-				<div className='header'>
-					Audio Track: <i>Audio Track 4</i>
-				</div>
-			</div>
+			<ul className='changes'>{ChangesItems}</ul>
 		</div>
 	);
 };

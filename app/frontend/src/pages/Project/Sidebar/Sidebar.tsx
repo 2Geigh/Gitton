@@ -50,6 +50,8 @@ const ChangesCategories: FC<ChangesCategoriesProps> = ({
 		return (
 			<li
 				onClick={() => {
+					console.log(changed_track.id);
+					console.log(changed_track);
 					setCurrentlySelectedChangedTrack(changed_track);
 				}}
 				key={changed_track.id}
