@@ -105,6 +105,8 @@
 
 			background-color: GLOBAL.$TILE_GRAY_2;
 
+			transition: background-color 10s;
+
 			&.selected {
 				background-color: GLOBAL.$TILE_GRAY_3;
 

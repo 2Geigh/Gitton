@@ -1,5 +1,3 @@
-import Color from 'color';
-
 export type ChangedTrack = {
 	id: number;
 	name: string;
@@ -11,7 +9,7 @@ export type ChangedTrack = {
 		final: number | null;
 		type: 'EDIT' | 'DELETE' | 'ADD';
 	}>;
-	color?: Color;
+	color?: string;
 };
 
 export type ProjectChanges = Array<ChangedTrack>;
@@ -48,5 +46,6 @@ export const ProjectChanges_examples: ProjectChanges = [
 		itemType: 'Midi Track',
 		changeType: 'ADDED',
 		changes: [{ property: 'thing', init: null, final: -1, type: 'ADD' }],
+		color: '#FF94A6',
 	},
 ];
