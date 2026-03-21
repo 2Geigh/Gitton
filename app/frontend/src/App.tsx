@@ -1,6 +1,6 @@
 import Project from './pages/Project/Project';
 import { Project_example_1 } from './data/examples/Project';
-import { ProjectChanges_examples } from './data/examples/Changes';
+import '@fontsource-variable/open-sans';
 
 function App() {
 	return (

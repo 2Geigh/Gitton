@@ -1,8 +1,6 @@
 {
-  "devDependencies": {
-    "sass": "^1.98.0"
-  },
-  "dependencies": {
-    "@fontsource-variable/open-sans": "^5.2.7"
-  }
+	"devDependencies": {
+		"sass": "^1.98.0"
+	},
+	"dependencies": {}
 }
