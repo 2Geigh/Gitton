@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gitton/cmd/initialize"
+	"gitton/initialize"
 	"log"
 	"os"
 )
