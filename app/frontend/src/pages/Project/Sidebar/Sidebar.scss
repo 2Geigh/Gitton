@@ -95,6 +95,9 @@
 		// padding: GLOBAL.$SECTION_PADDING;
 
 		list-style-type: none;
+		overflow-y: auto;
+		scroll-behavior: smooth;
+		scrollbar-color: black;
 
 		background-color: GLOBAL.$TILE_GRAY_1;
 
