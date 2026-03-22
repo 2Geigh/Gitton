@@ -1,13 +1,10 @@
 import { Project } from '../../../shared/types/Project';
 import { Dispatch, FC, SetStateAction, useState } from 'react';
 import './Sidebar.scss';
-import {
-	ChangedTrack,
-	ProjectChanges,
-	ProjectChanges_examples,
-} from '../../../data/examples/Changes';
+import { ProjectChanges_examples } from '../../../data/examples/Changes';
 import ChangesCategories from './ChangesCategories/ChangesCategories';
 import CommitPanel from './CommitPanel/CommitPanel';
+import { ChangedTrack } from '../../../shared/types/Changes';
 
 type SidebarProps = {
 	project_name: Project['name'];
