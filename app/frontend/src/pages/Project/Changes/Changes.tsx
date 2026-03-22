@@ -8,33 +8,40 @@ type ChangesProps = {
 const Changes: FC<ChangesProps> = ({ currentlySelectedChangedTrack }) => {
 	const ChangesItems: JSX.Element[] = [];
 
-	if (currentlySelectedChangedTrack) {
-		for (let change of currentlySelectedChangedTrack.changes) {
-			const ChangeItem: JSX.Element = (
-				<li className='change'>
-					<div className='property'>{change.property}:</div>
-					<div className='difference'>
-						{change.final && (
-							<>
-								{change.init && (
-									<>
-										<div className='init'>
-											{change.init}
-										</div>
-										<div className='rightArrow'>
-											&#8594;{/* → */}
-										</div>
-									</>
-								)}
-								<div className='final'>{change.final}</div>
-							</>
-						)}
-					</div>
-				</li>
-			);
+	if (!currentlySelectedChangedTrack) {
+		return (
+			<div id='Changes'>
+				<div className='error'>
+					₍^. .^₎⟆
+					<div className='welcome'>Welcome to Gitton.</div>
+				</div>
+			</div>
+		);
+	}
 
-			ChangesItems.push(ChangeItem);
-		}
+	for (let change of currentlySelectedChangedTrack.changes) {
+		const ChangeItem: JSX.Element = (
+			<li className='change'>
+				<div className='property'>{change.property}:</div>
+				<div className='difference'>
+					{change.final && (
+						<>
+							{change.init && (
+								<>
+									<div className='init'>{change.init}</div>
+									<div className='rightArrow'>
+										&#8594;{/* → */}
+									</div>
+								</>
+							)}
+							<div className='final'>{change.final}</div>
+						</>
+					)}
+				</div>
+			</li>
+		);
+
+		ChangesItems.push(ChangeItem);
 	}
 
 	return (

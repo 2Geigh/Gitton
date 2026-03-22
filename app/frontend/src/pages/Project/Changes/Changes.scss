@@ -7,6 +7,28 @@
 
 	background-color: GLOBAL.$TILE_GRAY_1;
 
+	.error {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+
+		opacity: 50%;
+		user-select: none;
+
+		font-size: 2rem;
+		font-weight: 100;
+
+		.welcome {
+			margin-top: 1em;
+
+			font-size: 1rem;
+			font-weight: normal;
+			font-family: monospace, sans-serif;
+		}
+	}
+
 	.change_item {
 		// background-color: red;
 
