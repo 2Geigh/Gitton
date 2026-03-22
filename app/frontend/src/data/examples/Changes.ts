@@ -22,14 +22,14 @@ export const ProjectChanges_examples: ProjectChanges = [
 	{
 		id: 3,
 		name: 'Audio Track 3',
-		itemType: 'Midi Track',
+		itemType: 'Audio Track',
 		changeType: 'DELETED',
 		changes: [{ property: 'X', init: 102, final: null, type: 'DELETE' }],
 	},
 	{
 		id: 4,
 		name: 'Audio Track 4',
-		itemType: 'Midi Track',
+		itemType: 'Audio Track',
 		changeType: 'ADDED',
 		changes: [{ property: 'thing', init: null, final: -1, type: 'ADD' }],
 		color: '#FF94A6',

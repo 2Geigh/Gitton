@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import './Changes.scss';
-import { ChangedTrack } from '../../../data/examples/Changes';
+import { ChangedTrack } from '../../../shared/types/Changes';
 
 type ChangesProps = {
 	currentlySelectedChangedTrack: ChangedTrack | null;

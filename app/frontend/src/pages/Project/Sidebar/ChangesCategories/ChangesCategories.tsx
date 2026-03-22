@@ -1,8 +1,10 @@
 import { Dispatch, FC, SetStateAction } from 'react';
+import {} from '../../../../data/examples/Changes';
 import {
 	ChangedTrack,
+	ChangedTrackIconAndAlt,
 	ProjectChanges,
-} from '../../../../data/examples/Changes';
+} from '../../../../shared/types/Changes';
 
 type ChangesCategoriesProps = {
 	project_changes: ProjectChanges;
@@ -29,7 +31,12 @@ const ChangesCategories: FC<ChangesCategoriesProps> = ({
 				key={changed_track.id}
 				className={`change_category ${changeType} ${currentlySelectedChangedTrack?.id === changed_track.id && 'selected'}`}
 			>
-				{changed_track.name}
+				<div className='name'>{changed_track.name}</div>
+				<img
+					src={ChangedTrackIconAndAlt(changed_track).icon_path}
+					alt={ChangedTrackIconAndAlt(changed_track).alt}
+					className='icon'
+				/>
 			</li>
 		);
 	});

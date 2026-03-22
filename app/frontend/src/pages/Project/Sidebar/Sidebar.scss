@@ -102,6 +102,11 @@
 		background-color: GLOBAL.$TILE_GRAY_1;
 
 		.change_category {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+
 			padding: GLOBAL.$SECTION_PADDING;
 
 			border-bottom: 1px solid black;
@@ -109,6 +114,24 @@
 			background-color: GLOBAL.$TILE_GRAY_2;
 
 			transition: background-color 0.1s;
+
+			.name {
+				height: 100%;
+				width: 100%;
+				text-wrap: wrap;
+				overflow-y: hidden;
+
+				// background-color: red;
+			}
+
+			.icon {
+				height: 1em;
+				width: 1em;
+
+				filter: contrast(200%);
+
+				// background-color: blue;
+			}
 
 			&.selected {
 				background-color: GLOBAL.$TILE_GRAY_3;

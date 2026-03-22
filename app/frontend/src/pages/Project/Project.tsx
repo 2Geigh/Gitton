@@ -3,7 +3,7 @@ import { Project } from '../../shared/types/Project';
 import Sidebar from './Sidebar/Sidebar';
 import Changes from './Changes/Changes';
 import './Project.scss';
-import { ChangedTrack, ProjectChanges } from '../../data/examples/Changes';
+import { ChangedTrack } from '../../shared/types/Changes';
 
 type ProjectProps = {
 	project: Project;
