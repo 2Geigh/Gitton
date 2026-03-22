@@ -1,15 +1,17 @@
 import '../../assets/icons/als.webp';
 
+export type Changes = 'EDIT' | 'DELETE' | 'ADD';
+
 export type ChangedTrack = {
 	id: number;
 	name: string;
 	itemType: 'Midi Track' | 'Audio Track' | 'Meta';
-	changeType: 'MODIFIED' | 'DELETED' | 'ADDED';
+	changeType: Changes;
 	changes: Array<{
 		property: string;
 		init: number | null;
 		final: number | null;
-		type: 'EDIT' | 'DELETE' | 'ADD';
+		type: Changes;
 	}>;
 	color?: string;
 };

@@ -1,6 +1,7 @@
 import { FC } from 'react';
 import './Changes.scss';
 import { ChangedTrack } from '../../../shared/types/Changes';
+import type { Changes } from '../../../shared/types/Changes';
 
 type ChangesProps = {
 	currentlySelectedChangedTrack: ChangedTrack | null;
@@ -20,21 +21,28 @@ const Changes: FC<ChangesProps> = ({ currentlySelectedChangedTrack }) => {
 	}
 
 	for (let change of currentlySelectedChangedTrack.changes) {
+		const changeType: Changes = change.type;
+		const changeTypeClass = changeType.toLowerCase();
+
 		const ChangeItem: JSX.Element = (
-			<li className='change'>
+			<li className={`change ${changeTypeClass}`}>
 				<div className='property'>{change.property}:</div>
 				<div className='difference'>
-					{change.final && (
+					{changeType === 'ADD' && (
+						<div className='final'>{change.final}</div>
+					)}
+
+					{changeType === 'EDIT' && (
 						<>
-							{change.init && (
-								<>
-									<div className='init'>{change.init}</div>
-									<div className='rightArrow'>
-										&#8594;{/* → */}
-									</div>
-								</>
-							)}
+							<div className='init'>{change.init}</div>
+							<div className='right_arrow'>&#8594;{/* → */}</div>
 							<div className='final'>{change.final}</div>
+						</>
+					)}
+
+					{changeType === 'DELETE' && (
+						<>
+							<div className='init'>{change.init}</div>
 						</>
 					)}
 				</div>

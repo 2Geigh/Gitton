@@ -29,17 +29,105 @@
 		}
 	}
 
-	.change_item {
+	.changes {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: stretch;
+
+		width: 100%;
+		height: 100%;
+
+		box-sizing: border-box;
+
 		// background-color: red;
 
-		.header {
-			// background-color: orange;
-		}
+		.change {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: center;
 
-		ul.changes {
-			list-style-type: none;
+			padding: GLOBAL.$SECTION_PADDING;
+			box-sizing: border-box;
 
-			// background-color: yellow;
+			border-bottom: 1px solid black;
+			background-color: GLOBAL.$TILE_GRAY_2;
+
+			transition: background-color
+				GLOBAL.$BACKGROUND-COLOR_TRANSITION_TIME;
+
+			&:hover {
+				background-color: GLOBAL.$TILE_GRAY_2_HOVER;
+			}
+
+			&.edit {
+				background-color: GLOBAL.$EDIT_COLOR;
+
+				&:hover {
+					background-color: GLOBAL.$EDIT_COLOR_HOVER;
+				}
+
+				// &:active {
+				// 	background-color: GLOBAL.$EDIT_COLOR_ACTIVE;
+				// }
+			}
+
+			&.add {
+				background-color: GLOBAL.$ADD_COLOR;
+
+				&:hover {
+					background-color: GLOBAL.$ADD_COLOR_HOVER;
+				}
+
+				// &:active {
+				// 	background-color: GLOBAL.$ADD_COLOR_ACTIVE;
+				// }
+			}
+
+			&.delete {
+				background-color: GLOBAL.$DELETE_COLOR;
+
+				&:hover {
+					background-color: GLOBAL.$DELETE_COLOR_HOVER;
+				}
+
+				// &:active {
+				// 	background-color: GLOBAL.$DELETE_COLOR_ACTIVE;
+				// }
+			}
+
+			.property {
+				// background-color: cyan;
+
+				margin-right: 0.75em;
+			}
+
+			.difference {
+				display: flex;
+				flex-direction: row;
+				justify-content: center;
+				align-items: center;
+
+				font-size: 92.5%;
+				font-family: 'consolas', monospace;
+
+				// background-color: orange;
+
+				.init {
+					font-family: inherit;
+					font-size: inherit;
+				}
+
+				.final {
+					font-family: inherit;
+					font-size: inherit;
+				}
+
+				.right_arrow {
+					margin: 0rem 0.25rem;
+				}
+			}
 		}
 	}
 }

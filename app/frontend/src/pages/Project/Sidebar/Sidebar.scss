@@ -113,7 +113,8 @@
 
 			background-color: GLOBAL.$TILE_GRAY_2;
 
-			transition: background-color 0.1s;
+			transition: background-color
+				GLOBAL.$BACKGROUND-COLOR_TRANSITION_TIME;
 
 			.name {
 				height: 100%;
