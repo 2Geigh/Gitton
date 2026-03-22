@@ -26,7 +26,14 @@ const ChangesCategories: FC<ChangesCategoriesProps> = ({
 				onClick={() => {
 					console.log(changed_track.id);
 					console.log(changed_track);
-					setCurrentlySelectedChangedTrack(changed_track);
+
+					if (
+						currentlySelectedChangedTrack?.id === changed_track.id
+					) {
+						setCurrentlySelectedChangedTrack(null);
+					} else {
+						setCurrentlySelectedChangedTrack(changed_track);
+					}
 				}}
 				key={changed_track.id}
 				className={`change_category ${changeType} ${currentlySelectedChangedTrack?.id === changed_track.id && 'selected'}`}
