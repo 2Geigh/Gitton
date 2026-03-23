@@ -1,4 +1,4 @@
-# Gitton
+# Gitton 🐱
 
 A version control system for Ableton Live 12.
 
