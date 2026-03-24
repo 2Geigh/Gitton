@@ -2,9 +2,10 @@ import { Project } from '../../../shared/types/Project';
 import { Dispatch, FC, SetStateAction, useState } from 'react';
 import './Sidebar.scss';
 import { ProjectChanges_examples } from '../../../data/examples/Changes';
-import ChangesCategories from './ChangesCategories/ChangesCategories';
-import CommitPanel from './CommitPanel/CommitPanel';
+import { ChangesCategories } from './ChangesCategories';
+import { CommitPanel } from './CommitPanel';
 import { ChangedTrack } from '../../../shared/types/Changes';
+import { SelectedRepo } from './SelectedRepo';
 
 type SidebarProps = {
 	project_name: Project['name'];
@@ -20,45 +21,13 @@ const Sidebar: FC<SidebarProps> = ({
 }) => {
 	const [isRepoExpanded, setIsRepoExpanded] = useState<boolean>(false);
 
-	const triangleArrow = {
-		up: <>&#9650;</>, // ▲
-		down: <>&#9660;</>, // ▼
-	};
-
 	return (
 		<div id='Sidebar'>
-			<div
-				id='repo'
-				className={isRepoExpanded ? 'expanded' : ''}
-			>
-				<div
-					id='selectedRepo'
-					onClick={() => {
-						setIsRepoExpanded(!isRepoExpanded);
-					}}
-				>
-					<div id='name'>{project_name}</div>
-					<div id='dropdownArrow'>
-						{isRepoExpanded ? triangleArrow.up : triangleArrow.down}
-					</div>
-				</div>
-
-				{isRepoExpanded && (
-					<div id='toggleable'>
-						<button id='addProject'>Track new project</button>
-						<div id='search'>
-							<div id='searchBox'>
-								<div id='searchIcon'>🔎</div>
-								<input
-									type='text'
-									name='repoSearch'
-									id='repoSearch'
-								/>
-							</div>
-						</div>
-					</div>
-				)}
-			</div>
+			<SelectedRepo
+				isRepoExpanded={isRepoExpanded}
+				setIsRepoExpanded={setIsRepoExpanded}
+				project_name={project_name}
+			/>
 
 			{!isRepoExpanded && (
 				<>

@@ -5,8 +5,24 @@ export const Project_example_1: Project = {
 	bpm: 128,
 	ableton_version: 12,
 
+	filepath: '',
+
 	commits: { 0: 1 },
 	changes: [],
 };
 
-export const Projects_examples: Array<Project> = [Project_example_1];
+const Project_example_2: Project = {
+	name: 'empty',
+	bpm: 90,
+	ableton_version: 12,
+	filepath: '/null',
+	commits: {},
+	changes: [],
+};
+
+export const Projects_examples_0: Array<Project> = [];
+export const Projects_examples_1: Array<Project> = [Project_example_1];
+export const Projects_examples_2: Array<Project> = [
+	Project_example_1,
+	Project_example_2,
+];

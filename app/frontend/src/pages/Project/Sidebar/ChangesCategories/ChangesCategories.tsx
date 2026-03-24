@@ -13,7 +13,7 @@ type ChangesCategoriesProps = {
 	>;
 	currentlySelectedChangedTrack: ChangedTrack | null;
 };
-const ChangesCategories: FC<ChangesCategoriesProps> = ({
+export const ChangesCategories: FC<ChangesCategoriesProps> = ({
 	project_changes,
 	currentlySelectedChangedTrack,
 	setCurrentlySelectedChangedTrack,
@@ -50,5 +50,3 @@ const ChangesCategories: FC<ChangesCategoriesProps> = ({
 
 	return <ul id='ChangesCategories'>{Categories}</ul>;
 };
-
-export default ChangesCategories;
