@@ -14,7 +14,9 @@ export const ProjectsList: FC<ProjectsListProps> = ({ projects }) => {
 
 	return (
 		<div id='ProjectsList'>
-			<ul>{Projects}</ul>
+			{Projects.length > 0 ?
+				<ul>{Projects}</ul>
+			:	<></>}
 		</div>
 	);
 };
