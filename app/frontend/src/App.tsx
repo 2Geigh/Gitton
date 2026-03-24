@@ -1,10 +1,16 @@
-import Project from './pages/Project/Project';
-import { Project_example_1 } from './data/examples/Project';
+import { ProjectView } from './pages/Project';
+import {
+	Project_example_1,
+	Projects_examples_2,
+} from './data/examples/Project';
 
 function App() {
 	return (
 		<div id='App'>
-			<Project project={Project_example_1} />
+			<ProjectView
+				project={Project_example_1}
+				projects={Projects_examples_2}
+			/>
 		</div>
 	);
 }

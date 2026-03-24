@@ -6,11 +6,13 @@ type SelectedRepoProps = {
 	isRepoExpanded: boolean;
 	setIsRepoExpanded: Dispatch<SetStateAction<boolean>>;
 	project_name: Project['name'];
+	projects: Array<Project>;
 };
 export const SelectedRepo: FC<SelectedRepoProps> = ({
 	isRepoExpanded,
 	setIsRepoExpanded,
 	project_name,
+	projects,
 }) => {
 	const triangleArrow = {
 		up: <>&#9650;</>, // ▲
@@ -35,7 +37,7 @@ export const SelectedRepo: FC<SelectedRepoProps> = ({
 					</div>
 				</div>
 
-				{isRepoExpanded && <ToggleableMenu />}
+				{isRepoExpanded && <ToggleableMenu projects={projects} />}
 			</div>
 		</>
 	);

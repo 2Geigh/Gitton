@@ -1,30 +1,15 @@
 import { FC } from 'react';
+import { Project } from '../../../../../shared/types/Project';
+import { RepositoryActions } from './RepositoryActions';
+import { ProjectsList } from './ProjectsList';
 
-const RepositoryActions: FC = () => {
-	return (
-		<>
-			<div id='RepositoryActions'>
-				<button id='addProject'>Track new project</button>
-
-				<div id='searchBox'>
-					<div id='searchIcon'>🔎</div>
-					<input
-						type='text'
-						name='repoSearch'
-						id='repoSearch'
-						placeholder='Filter'
-					/>
-				</div>
-			</div>
-		</>
-	);
-};
-
-export const ToggleableMenu: FC = () => {
+type ToggleableMenuProps = { projects: Array<Project> };
+export const ToggleableMenu: FC<ToggleableMenuProps> = ({ projects }) => {
 	return (
 		<>
 			<div id='ToggleableMenu'>
 				<RepositoryActions />
+				<ProjectsList projects={projects} />
 			</div>
 		</>
 	);

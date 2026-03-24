@@ -5,10 +5,12 @@ import Changes from './Changes/Changes';
 import './Project.scss';
 import { ChangedTrack } from '../../shared/types/Changes';
 
-type ProjectProps = {
+type ProjectViewProps = {
 	project: Project;
+	projects: Array<Project>;
 };
-const ProjectView: FC<ProjectProps> = ({ project }) => {
+
+export const ProjectView: FC<ProjectViewProps> = ({ project, projects }) => {
 	const [currentlySelectedChangedTrack, setCurrentlySelectedChangedTrack] =
 		useState<null | ChangedTrack>(null);
 
@@ -20,6 +22,7 @@ const ProjectView: FC<ProjectProps> = ({ project }) => {
 				setCurrentlySelectedChangedTrack={
 					setCurrentlySelectedChangedTrack
 				}
+				projects={projects}
 			/>
 			<Changes
 				currentlySelectedChangedTrack={currentlySelectedChangedTrack}
@@ -27,5 +30,3 @@ const ProjectView: FC<ProjectProps> = ({ project }) => {
 		</div>
 	);
 };
-
-export default ProjectView;

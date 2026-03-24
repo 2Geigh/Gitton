@@ -13,11 +13,13 @@ type SidebarProps = {
 	setCurrentlySelectedChangedTrack: Dispatch<
 		SetStateAction<ChangedTrack | null>
 	>;
+	projects: Array<Project>;
 };
 const Sidebar: FC<SidebarProps> = ({
 	project_name,
 	currentlySelectedChangedTrack,
 	setCurrentlySelectedChangedTrack,
+	projects,
 }) => {
 	const [isRepoExpanded, setIsRepoExpanded] = useState<boolean>(false);
 
@@ -27,6 +29,7 @@ const Sidebar: FC<SidebarProps> = ({
 				isRepoExpanded={isRepoExpanded}
 				setIsRepoExpanded={setIsRepoExpanded}
 				project_name={project_name}
+				projects={projects}
 			/>
 
 			{!isRepoExpanded && (
