@@ -112,9 +112,11 @@
 					background-color: GLOBAL.$TILE_GRAY_2;
 
 					&:hover {
+						cursor: pointer;
 						background-color: GLOBAL.$TILE_GRAY_2_HOVER;
 					}
 					&:active {
+						cursor: pointer;
 						background-color: GLOBAL.$TILE_GRAY_2_ACTIVE;
 					}
 				}
@@ -187,12 +189,38 @@
 
 					width: 100%;
 
+					border-top: 1px solid black;
+
 					list-style-type: none;
 
-					background-color: orange;
+					background-color: GLOBAL.$TILE_GRAY_1;
 
 					li {
-						background-color: yellow;
+						display: flex;
+
+						width: 100%;
+
+						box-sizing: border-box;
+						padding: 0.5rem GLOBAL.$SECTION_SPACING_MEDIUM;
+
+						border-bottom: 1px solid black;
+
+						transition: background-color
+							GLOBAL.$BACKGROUND-COLOR_TRANSITION_TIME;
+
+						user-select: none;
+
+						background-color: GLOBAL.$TILE_GRAY_2;
+
+						&:hover {
+							cursor: pointer;
+							background-color: GLOBAL.$TILE_GRAY_2_HOVER;
+						}
+
+						&:active {
+							cursor: pointer;
+							background-color: GLOBAL.$TILE_GRAY_2_ACTIVE;
+						}
 					}
 				}
 			}
