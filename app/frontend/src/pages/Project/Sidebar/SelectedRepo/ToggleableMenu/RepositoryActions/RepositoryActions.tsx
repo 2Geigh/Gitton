@@ -1,4 +1,4 @@
-import { Dispatch, FC, SetStateAction, useState } from 'react';
+import { Dispatch, FC, SetStateAction } from 'react';
 
 type RepositoryActionsProps = {
 	setSearchFilter: Dispatch<SetStateAction<string>>;
