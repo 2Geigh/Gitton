@@ -1,6 +1,11 @@
-import { FC } from 'react';
+import { Dispatch, FC, SetStateAction, useState } from 'react';
 
-export const RepositoryActions: FC = () => {
+type RepositoryActionsProps = {
+	setSearchFilter: Dispatch<SetStateAction<string>>;
+};
+export const RepositoryActions: FC<RepositoryActionsProps> = ({
+	setSearchFilter,
+}) => {
 	return (
 		<>
 			<div id='RepositoryActions'>
@@ -13,6 +18,9 @@ export const RepositoryActions: FC = () => {
 						name='repoSearch'
 						id='repoSearch'
 						placeholder='Filter'
+						onChange={(e) => {
+							setSearchFilter(e.target.value);
+						}}
 					/>
 				</div>
 			</div>
