@@ -97,9 +97,15 @@
 				// background-color: orange;
 
 				#addProject {
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: stretch;
+
 					width: 100%;
 
 					padding: 0.25rem;
+					box-sizing: border-box;
 
 					margin-bottom: calc(GLOBAL.$SECTION_SPACING_MEDIUM / 2);
 
@@ -111,13 +117,75 @@
 
 					background-color: GLOBAL.$TILE_GRAY_2;
 
-					&:hover {
-						cursor: pointer;
-						background-color: GLOBAL.$TILE_GRAY_2_HOVER;
+					label,
+					button {
+						margin: 0.5em 0rem;
+						margin-top: 0em;
+
+						padding: 0.75em 0rem;
+						box-sizing: border-box;
+
+						text-align: center;
+
+						// background-color: cyan;
 					}
-					&:active {
+
+					label {
+						margin: 0em 0em;
+					}
+
+					button {
+						outline: none;
+						border: 1px solid black;
+
 						cursor: pointer;
-						background-color: GLOBAL.$TILE_GRAY_2_ACTIVE;
+
+						background-color: GLOBAL.$TILE_GRAY_3;
+
+						&:hover {
+							background-color: GLOBAL.$TILE_GRAY_3_HOVER;
+						}
+
+						&:active {
+							background-color: GLOBAL.$TILE_GRAY_3_ACTIVE;
+						}
+					}
+
+					.warning {
+						margin: 1em 0em;
+
+						text-align: center;
+
+						color: red;
+						// background-color: red;
+					}
+
+					input {
+						display: flex;
+						flex-direction: row;
+						justify-content: center;
+						align-items: center;
+
+						// background-color: red;
+
+						&::file-selector-button {
+							padding: 0.25em;
+
+							outline: none;
+							border: 1px solid black;
+
+							cursor: pointer;
+
+							background-color: GLOBAL.$TILE_GRAY_3;
+
+							&:hover {
+								background-color: GLOBAL.$TILE_GRAY_3_HOVER;
+							}
+
+							&:active {
+								background-color: GLOBAL.$TILE_GRAY_3_ACTIVE;
+							}
+						}
 					}
 				}
 
